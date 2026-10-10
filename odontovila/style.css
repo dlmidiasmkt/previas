@@ -279,3 +279,7 @@ footer.site .legal{grid-column:1/-1;padding-top:24px;border-top:1px solid var(--
   .rv-img.in{opacity:1}
   .rv-img img{transform:none}
 }
+/* oficina: moldura reta com canto cortado e faixa diagonal de oficina no lugar do arco */
+.n-oficina .arch{border-radius:18px 18px 18px 96px}
+.n-oficina .ring{inset:auto -22px -22px auto;width:56%;border:0;border-radius:18px;background:repeating-linear-gradient(-45deg,color-mix(in srgb,var(--brand) 75%,transparent) 0 12px,transparent 12px 26px);opacity:.6;animation:none}
+.n-oficina .marquee li::after{content:"/";font-size:1em;opacity:.45}
