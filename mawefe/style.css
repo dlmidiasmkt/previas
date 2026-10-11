@@ -283,3 +283,24 @@ footer.site .legal{grid-column:1/-1;padding-top:24px;border-top:1px solid var(--
 .n-oficina .arch{border-radius:18px 18px 18px 96px}
 .n-oficina .ring{inset:auto -22px -22px auto;width:56%;border:0;border-radius:18px;background:repeating-linear-gradient(-45deg,color-mix(in srgb,var(--brand) 75%,transparent) 0 12px,transparent 12px 26px);opacity:.6;animation:none}
 .n-oficina .marquee li::after{content:"/";font-size:1em;opacity:.45}
+/* celular: a foto entra logo depois do título, para a primeira tela ter imagem e botão do WhatsApp juntos */
+@media (max-width:620px){
+  .hero{padding-top:20px}
+  .hero .wrap{display:flex;flex-direction:column;gap:0}
+  .hero .wrap > div:first-child{display:contents}
+  .hero .eyebrow{order:1;align-self:flex-start;margin-bottom:16px}
+  .hero h1{order:2;font-size:clamp(34px,9.6vw,42px)}
+  .hero__media{order:3;max-width:none;margin:20px 0 0}
+  .hero__lead{order:4;margin-top:20px;font-size:16px}
+  .hero__actions{order:5;margin-top:22px}
+  .proof{order:6}
+  .arch{aspect-ratio:5/4;border-radius:200px 200px 22px 22px}
+  .arch img{object-position:var(--pos-cel,50% 30%)}
+  .n-oficina .arch{border-radius:16px 16px 16px 64px}
+  .hero .ring{display:none}
+  .float-card{left:10px;bottom:12px;padding:10px 14px;gap:10px;border-radius:14px}
+  .float-card b{font-size:22px}
+  .g-ico{width:24px;height:24px}
+  .float-chip{right:10px;top:auto;bottom:16px;max-width:150px;padding:8px 12px;font-size:12px}
+}
+@media (max-width:900px){.brand img{height:min(var(--logo-h),58px)}}
