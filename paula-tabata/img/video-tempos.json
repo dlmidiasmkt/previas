@@ -1,0 +1,12 @@
+{
+ "texto": "Oi, Paula, tudo bem? Aqui é o David! Olha só o site que eu criei pra você. Ele já tem a logo, os procedimentos e as avaliações reais dos clientes, direto do Google. E com um toque, o cliente agenda direto no WhatsApp. Ficou muito legal, né? Dá uma olhada no link que eu te enviei e me conta o que achou!",
+ "serv": "procedimentos",
+ "cenas": {
+  "logo": 5.96,
+  "procedimentos": 6.78,
+  "avaliações": 7.94,
+  "toque": 11.76,
+  "WhatsApp": 13.92,
+  "Ficou": 14.96
+ }
+}

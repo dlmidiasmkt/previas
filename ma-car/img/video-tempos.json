@@ -1,0 +1,12 @@
+{
+ "texto": "Fala, pessoal da Ême A Car! Aqui é o David! Olha só o site que eu criei pra vocês. Ele já tem a logo, os serviços e as avaliações reais dos clientes, direto do Google. E com um toque, o cliente pede orçamento direto no WhatsApp. Ficou show, né? Dá uma olhada no link e me conta o que achou!",
+ "serv": "serviços",
+ "cenas": {
+  "logo": 6.0200000000000005,
+  "serviços": 6.58,
+  "avaliações": 7.5200000000000005,
+  "toque": 10.82,
+  "WhatsApp": 13.1,
+  "Ficou": 13.76
+ }
+}

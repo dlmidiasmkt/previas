@@ -1,0 +1,12 @@
+{
+ "texto": "Fala, pessoal da Érre e Cê Auto Mecânica! Aqui é o David! Olha só o site que eu criei pra vocês. Ele já tem a logo, os serviços e as avaliações reais dos clientes, direto do Google. E com um toque, o cliente pede orçamento direto no WhatsApp. Ficou show, né? Dá uma olhada no link e me conta o que achou!",
+ "serv": "serviços",
+ "cenas": {
+  "logo": 6.86,
+  "serviços": 7.42,
+  "avaliações": 8.36,
+  "toque": 11.66,
+  "WhatsApp": 13.94,
+  "Ficou": 14.620000000000001
+ }
+}

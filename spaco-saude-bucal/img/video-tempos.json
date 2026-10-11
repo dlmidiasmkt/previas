@@ -1,0 +1,12 @@
+{
+ "texto": "Olá, equipe Spaço Saúde Bucal, tudo bem? Aqui é o David! Olha só o site que eu criei pra vocês. Ele já tem a logo, os tratamentos e as avaliações reais dos pacientes, direto do Google. E com um toque, o paciente agenda direto no WhatsApp. Ficou muito bacana, né? Dá uma olhada no link e me conta o que você achou!",
+ "serv": "tratamentos",
+ "cenas": {
+  "logo": 6.96,
+  "tratamentos": 7.7,
+  "avaliações": 8.84,
+  "toque": 12.72,
+  "WhatsApp": 14.860000000000001,
+  "Ficou": 16
+ }
+}

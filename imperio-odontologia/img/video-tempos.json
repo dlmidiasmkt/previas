@@ -1,0 +1,12 @@
+{
+ "texto": "Olá, equipe Império Odontologia, tudo bem? Aqui é o David! Olha só o site que eu criei pra vocês. Ele já tem a logo, os tratamentos e as avaliações reais dos pacientes, direto do Google. E com um toque, o paciente agenda direto no WhatsApp. Ficou muito bacana, né? Dá uma olhada no link e me conta o que você achou!",
+ "serv": "tratamentos",
+ "cenas": {
+  "logo": 7.48,
+  "tratamentos": 8.22,
+  "avaliações": 9.34,
+  "toque": 13.22,
+  "WhatsApp": 15.38,
+  "Ficou": 16.52
+ }
+}

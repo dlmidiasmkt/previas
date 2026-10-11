@@ -1,0 +1,12 @@
+{
+ "texto": "Olá, equipe Sorriso Fácil, tudo bem? Aqui é o David! Olha só o site que eu criei pra vocês. Ele já tem a logo, os tratamentos e as avaliações reais dos pacientes, direto do Google. E com um toque, o paciente agenda direto no WhatsApp. Ficou muito bacana, né? Dá uma olhada no link e me conta o que você achou!",
+ "serv": "tratamentos",
+ "cenas": {
+  "logo": 6.74,
+  "tratamentos": 7.46,
+  "avaliações": 8.6,
+  "toque": 12.48,
+  "WhatsApp": 14.64,
+  "Ficou": 15.780000000000001
+ }
+}

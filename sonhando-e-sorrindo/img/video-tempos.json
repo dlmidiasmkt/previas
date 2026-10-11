@@ -1,0 +1,12 @@
+{
+ "texto": "Olá, equipe Sonhando e Sorrindo, tudo bem? Aqui é o David! Olha só o site que eu criei pra vocês. Ele já tem a logo, os tratamentos e as avaliações reais dos pacientes, direto do Google. E com um toque, o paciente agenda direto no WhatsApp. Ficou muito bacana, né? Dá uma olhada no link e me conta o que você achou!",
+ "serv": "tratamentos",
+ "cenas": {
+  "logo": 7.0200000000000005,
+  "tratamentos": 7.74,
+  "avaliações": 8.88,
+  "toque": 12.76,
+  "WhatsApp": 14.92,
+  "Ficou": 16.06
+ }
+}

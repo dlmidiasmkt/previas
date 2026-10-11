@@ -1,0 +1,12 @@
+{
+ "texto": "Olá, equipe Iúnic Clínic Herrera, tudo bem? Aqui é o David! Olha só o site que eu criei pra vocês. Ele já tem a logo, os tratamentos e as avaliações reais dos pacientes, direto do Google. E com um toque, o paciente agenda direto no WhatsApp. Ficou muito bacana, né? Dá uma olhada no link e me conta o que você achou!",
+ "serv": "tratamentos",
+ "cenas": {
+  "logo": 7.5200000000000005,
+  "tratamentos": 8.26,
+  "avaliações": 9.4,
+  "toque": 13.280000000000001,
+  "WhatsApp": 15.42,
+  "Ficou": 16.56
+ }
+}

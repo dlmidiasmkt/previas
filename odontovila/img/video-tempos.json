@@ -1,0 +1,12 @@
+{
+ "texto": "Olá, Doutora Márcia, tudo bem? Aqui é o David! Olha só o site que eu criei pra vocês. Ele já tem a logo, os tratamentos e as avaliações reais dos pacientes, direto do Google. E com um toque, o paciente agenda direto no WhatsApp. Ficou muito bacana, né? Dá uma olhada no link e me conta o que você achou!",
+ "serv": "tratamentos",
+ "cenas": {
+  "logo": 6.32,
+  "tratamentos": 7.0600000000000005,
+  "avaliações": 8.2,
+  "toque": 12.08,
+  "WhatsApp": 14.22,
+  "Ficou": 15.360000000000001
+ }
+}

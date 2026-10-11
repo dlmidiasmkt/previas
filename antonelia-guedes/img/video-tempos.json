@@ -1,0 +1,12 @@
+{
+ "texto": "Olá, Doutora Antonelia, tudo bem? Aqui é o David! Olha só o site que eu criei pra vocês. Ele já tem a logo, os tratamentos e as avaliações reais dos pacientes, direto do Google. E com um toque, o paciente agenda direto no WhatsApp. Ficou muito bacana, né? Dá uma olhada no link e me conta o que você achou!",
+ "serv": "tratamentos",
+ "cenas": {
+  "logo": 6.880000000000001,
+  "tratamentos": 7.6000000000000005,
+  "avaliações": 8.74,
+  "toque": 12.620000000000001,
+  "WhatsApp": 14.780000000000001,
+  "Ficou": 15.92
+ }
+}

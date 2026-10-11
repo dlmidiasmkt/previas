@@ -1,0 +1,12 @@
+{
+ "texto": "Fala, Sandro! Aqui é o David! Olha só o site que eu criei pra vocês. Ele já tem a logo, os serviços e as avaliações reais dos clientes, direto do Google. E com um toque, o cliente pede orçamento direto no WhatsApp. Ficou show, né? Dá uma olhada no link e me conta o que achou!",
+ "serv": "serviços",
+ "cenas": {
+  "logo": 5.720000000000001,
+  "serviços": 6.300000000000001,
+  "avaliações": 7.24,
+  "toque": 10.540000000000001,
+  "WhatsApp": 12.82,
+  "Ficou": 13.48
+ }
+}

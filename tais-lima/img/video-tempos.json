@@ -1,0 +1,12 @@
+{
+ "texto": "Oi, Doutora Taís, tudo bem? Aqui é o David! Olha só o site que eu criei pra você. Ele já tem a logo, os procedimentos e as avaliações reais dos clientes, direto do Google. E com um toque, o cliente agenda direto no WhatsApp. Ficou muito legal, né? Dá uma olhada no link que eu te enviei e me conta o que achou!",
+ "serv": "procedimentos",
+ "cenas": {
+  "logo": 6.42,
+  "procedimentos": 7.24,
+  "avaliações": 8.4,
+  "toque": 12.24,
+  "WhatsApp": 14.38,
+  "Ficou": 15.42
+ }
+}
