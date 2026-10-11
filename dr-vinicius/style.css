@@ -311,3 +311,14 @@ footer.site .legal{grid-column:1/-1;padding-top:24px;border-top:1px solid var(--
 .agora::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
 .agora.is-open{background:rgba(22,163,74,.14);color:color-mix(in srgb,#16a34a 72%,var(--ink))}
 .agora.is-closed{background:rgba(120,120,120,.14);color:var(--muted)}
+
+/* faixa "Prévia criada pelo David" (só no endereço publicado; app.js) */
+.dl-faixa{position:fixed;left:50%;bottom:16px;z-index:70;width:min(720px,calc(100% - 24px));display:flex;align-items:center;gap:14px;padding:12px 12px 12px 18px;border-radius:18px;background:#111317;color:#f4f4f5;border:1px solid rgba(255,255,255,.14);box-shadow:0 18px 40px -12px rgba(0,0,0,.45);transform:translate(-50%,160%);transition:transform .5s cubic-bezier(.2,.8,.2,1);font-size:14.5px;line-height:1.35}
+.dl-faixa.is-on{transform:translate(-50%,0)}
+.dl-faixa p{flex:1;min-width:0}
+.dl-faixa span{color:#c9cbd1}
+.dl-faixa__btn{flex:none;display:inline-flex;align-items:center;height:44px;padding:0 18px;border-radius:12px;background:#25d366;color:#05240f;font-weight:800;white-space:nowrap}
+.dl-faixa__x{flex:none;width:34px;height:34px;border:0;border-radius:50%;background:rgba(255,255,255,.08);color:#f4f4f5;font-size:20px;line-height:1;cursor:pointer}
+.tem-faixa .wa-float{bottom:104px}
+@media (max-width:620px){.dl-faixa{flex-wrap:wrap;gap:10px;padding:12px 12px 12px 16px;font-size:13.5px}.dl-faixa p{flex-basis:calc(100% - 48px)}.dl-faixa__x{order:2}.dl-faixa__btn{order:3;flex:1;justify-content:center}.tem-faixa .wa-float{bottom:150px}}
+@media (prefers-reduced-motion:reduce){.dl-faixa{transition:none}}

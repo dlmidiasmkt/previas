@@ -38,6 +38,28 @@
     } catch (e) {}
   }
 
+  // Só no endereço publicado da prévia (github.io): conta a visita e mostra a faixa "Quero este site" para o dono do negócio.
+  // Quem já abriu o painel (localStorage "previas-eu", mesmo endereço) não conta nem vê a faixa; ?faixa=1 força a faixa.
+  var LS = function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } };
+  var SS = function (k, v) { try { if (v === undefined) return sessionStorage.getItem(k); sessionStorage.setItem(k, v); } catch (e) { return null; } };
+  var publicado = /github.io$/.test(location.hostname), eu = !!LS('previas-eu'), forca = /[?&]faixa=1/.test(location.search);
+  var conta = function (k) { if (publicado && !eu && S.slug) try { fetch('https://abacus.jasoncameron.dev/hit/dlprevias/' + S.slug + k, { keepalive: true }).catch(function () {}); } catch (e) {} };
+  if (!SS('dl-vis')) { SS('dl-vis', '1'); conta(''); }
+  if (S.dl && S.dl.wa && ((publicado && !eu) || forca) && !SS('dl-faixa-x')) {
+    var fx = d.createElement('aside');
+    fx.className = 'dl-faixa'; fx.setAttribute('aria-label', 'Sobre esta prévia');
+    fx.innerHTML = '<p><b>✨ Prévia criada pelo ' + S.dl.autor + ' para ' + S.dl.nome + '.</b> <span>Gostou? Este site pode ser seu.</span></p>' +
+      '<a class="dl-faixa__btn" target="_blank" rel="noopener">Quero este site</a><button type="button" class="dl-faixa__x" aria-label="Fechar">×</button>';
+    var btn = fx.querySelector('a');
+    btn.href = 'https://wa.me/' + S.dl.wa + '?text=' + encodeURIComponent('Oi, ' + S.dl.autor + '! Vi a prévia do site ' + S.dl.doNome + ' e gostei 😊 Me conta como funciona?');
+    btn.addEventListener('click', function () { conta('-quero'); window.dataLayer.push({ event: 'quero_site' }); });
+    fx.querySelector('button').addEventListener('click', function () { fx.classList.remove('is-on'); d.documentElement.classList.remove('tem-faixa'); SS('dl-faixa-x', '1'); });
+    d.body.appendChild(fx);
+    var mostra = function () { if (fx.classList.contains('is-on') || SS('dl-faixa-x')) return; fx.classList.add('is-on'); d.documentElement.classList.add('tem-faixa'); };
+    setTimeout(mostra, 7000);
+    window.addEventListener('scroll', function () { if (window.scrollY > d.documentElement.scrollHeight * 0.3) mostra(); }, { passive: true });
+  }
+
   // topo com sombra depois de rolar + botão flutuante depois do hero (some no contato)
   var top = d.querySelector('.topbar'), hero = d.querySelector('.hero'), fl = d.querySelector('.wa-float'), contato = d.getElementById('contato');
   var contatoVisivel = false;
