@@ -304,3 +304,10 @@ footer.site .legal{grid-column:1/-1;padding-top:24px;border-top:1px solid var(--
   .float-chip{right:10px;top:auto;bottom:16px;max-width:150px;padding:8px 12px;font-size:12px}
 }
 @media (max-width:900px){.brand img{height:min(var(--logo-h),58px)}}
+
+/* selo "Aberto agora" no contato (app.js) */
+.visit dt:has(.agora){display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}
+.agora{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;font-size:11.5px;letter-spacing:.04em;text-transform:none;font-weight:700;vertical-align:middle}
+.agora::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.agora.is-open{background:rgba(22,163,74,.14);color:color-mix(in srgb,#16a34a 72%,var(--ink))}
+.agora.is-closed{background:rgba(120,120,120,.14);color:var(--muted)}
