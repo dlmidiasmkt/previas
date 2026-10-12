@@ -1,0 +1,15 @@
+{
+ "versao": "apresentacao",
+ "texto": "Oi, equipe Clínica Iúni! Aqui é o David. Eu preparei uma coisa especial pra vocês: o site da Clínica Iúni, prontinho. Deixa eu te mostrar. Logo de cara, o nome da Clínica Iúni em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com duzentas e quarenta avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui o cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@25": 8.993,
+  "E#nota@44": 15.262,
+  "Descendo#serv@63": 21.59,
+  "Aqui#sobre@79": 27.186,
+  "E#aval@92": 30.82,
+  "No#contato@108": 35.951,
+  "E#whats@121": 40.015,
+  "Ficou#fecha@143": 45.924,
+  "WhatsApp#toque@128": 41.652
+ }
+}

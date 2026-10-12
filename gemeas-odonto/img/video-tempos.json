@@ -1,0 +1,15 @@
+{
+ "versao": "apresentacao",
+ "texto": "Olá, equipe Consultório Gêmeas! Aqui é o David. Eu preparei uma coisa especial pra vocês: o site do Consultório Gêmeas, prontinho. Deixa eu te mostrar. Logo de cara, o nome do Consultório Gêmeas em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com duzentas e trinta e cinco avaliações. Isso convence qualquer um. Descendo, cada tratamento tem o seu próprio botão, com a mensagem pronta para o paciente agendar a avaliação. Aqui o paciente conhece a clínica e entende por que confiar o sorriso a vocês. E o que mais vende: as avaliações reais de quem já é paciente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o paciente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@25": 9.829,
+  "E#nota@44": 17.771,
+  "Descendo#serv@65": 25.306,
+  "Aqui#sobre@83": 32.818,
+  "E#aval@98": 38.065,
+  "No#contato@114": 43.139,
+  "E#whats@127": 47.447,
+  "Ficou#fecha@149": 54.146,
+  "WhatsApp#toque@134": 49.084
+ }
+}
