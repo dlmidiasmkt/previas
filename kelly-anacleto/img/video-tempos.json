@@ -1,15 +1,15 @@
 {
  "versao": "apresentacao",
- "texto": "Oi, Kelly! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site do Kelly Anacleto, prontinho. Deixa eu te mostrar. Logo de cara, o nome do Kelly Anacleto em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com quarenta avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui o cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
+ "texto": "Oi, Kelly! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site do Kelly Anacleto, prontinho. Deixa eu te mostrar. Logo de cara, o nome do Kelly Anacleto em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com quarenta avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui a cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
  "cenas": {
   "Logo#logo@23": 8.238,
   "E#nota@42": 14.681,
   "Descendo#serv@59": 20.173,
   "Aqui#sobre@75": 25.792,
-  "E#aval@88": 29.426,
-  "No#contato@104": 33.826,
-  "E#whats@117": 37.739,
-  "Ficou#fecha@139": 43.59,
-  "WhatsApp#toque@124": 39.399
+  "E#aval@88": 29.906,
+  "No#contato@104": 34.306,
+  "E#whats@117": 38.219,
+  "Ficou#fecha@139": 44.07,
+  "WhatsApp#toque@124": 39.879
  }
 }

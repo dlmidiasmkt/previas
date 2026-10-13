@@ -31,7 +31,8 @@
       var hora = function (h) { var a = h.split(':'); return (+a[0]) + 'h' + (a[1] === '00' ? '' : a[1]); };
       var doDia = function (i) { return S.horas.filter(function (h) { return h.d.indexOf(DIAS[i]) >= 0; })[0]; };
       var h = doDia(hoje), txt, aberto = false;
-      if (h && agora >= min(h.a) && agora < min(h.f)) { aberto = true; txt = 'Aberto agora · fecha às ' + hora(h.f); }
+      if (h && h.a === '00:00' && min(h.f) >= 1439) { aberto = true; txt = 'Aberto agora · atende 24 horas'; }
+      else if (h && agora >= min(h.a) && agora < min(h.f)) { aberto = true; txt = 'Aberto agora · fecha às ' + hora(h.f); }
       else if (h && agora < min(h.a)) txt = 'Fechado agora · abre hoje às ' + hora(h.a);
       else for (var k = 1; k <= 7; k++) { var o = doDia((hoje + k) % 7); if (o) { txt = 'Fechado agora · abre ' + (k === 1 ? 'amanhã' : ['domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado'][(hoje + k) % 7]) + ' às ' + hora(o.a); break; } }
       if (txt) { ag.textContent = txt; ag.classList.add(aberto ? 'is-open' : 'is-closed'); ag.hidden = false; }

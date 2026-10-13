@@ -1,15 +1,15 @@
 {
  "versao": "apresentacao",
- "texto": "Oi, equipe Doutora Fabiane Peres! Aqui é o Deivid. Eu preparei uma coisa especial pra vocês: o site do Doutora Fabiane Peres, prontinho. Deixa eu te mostrar. Logo de cara, o nome do Doutora Fabiane Peres em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com duzentas e dez avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui o cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
+ "texto": "Oi, Doutora Fabiane! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site do Doutora Fabiane Peres, prontinho. Deixa eu te mostrar. Logo de cara, o nome do Doutora Fabiane Peres em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com duzentas e dez avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui a cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
  "cenas": {
-  "Logo#logo@27": 10.85,
-  "E#nota@47": 17.932,
-  "Descendo#serv@68": 25.432,
-  "Aqui#sobre@84": 31.573,
-  "E#aval@97": 36.125,
-  "No#contato@113": 41.129,
-  "E#whats@126": 45.39,
-  "Ficou#fecha@148": 51.322,
-  "WhatsApp#toque@133": 46.91
+  "Logo#logo@25": 9.144,
+  "E#nota@45": 16.261,
+  "Descendo#serv@66": 23.077,
+  "Aqui#sobre@82": 28.731,
+  "E#aval@95": 32.492,
+  "No#contato@111": 36.718,
+  "E#whats@124": 41.199,
+  "Ficou#fecha@146": 46.795,
+  "WhatsApp#toque@131": 42.627
  }
 }

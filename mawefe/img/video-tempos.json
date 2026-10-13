@@ -1,15 +1,15 @@
 {
  "versao": "apresentacao",
- "texto": "Oi, equipe Mawéfe Clínic! Aqui é o Deivid. Eu preparei uma coisa especial pra vocês: o site da Mawéfe Clínic, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com quarenta e sete avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui o cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
+ "texto": "Oi, equipe Mawéfe Clínic! Aqui é o Deivid. Eu preparei uma coisa especial pra vocês: o site da Mawéfe Clínic, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com quarenta e sete avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui a cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
  "cenas": {
   "Logo#logo@25": 9.504,
   "E#nota@42": 15.483,
   "Descendo#serv@63": 22.913,
   "Aqui#sobre@79": 28.416,
-  "E#aval@92": 32.329,
-  "No#contato@108": 36.798,
-  "E#whats@121": 41.361,
-  "Ficou#fecha@143": 47.41,
-  "WhatsApp#toque@128": 43.033
+  "E#aval@92": 32.53,
+  "No#contato@108": 36.999,
+  "E#whats@121": 41.562,
+  "Ficou#fecha@143": 47.611,
+  "WhatsApp#toque@128": 43.234
  }
 }

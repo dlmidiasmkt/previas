@@ -1,0 +1,15 @@
+{
+ "versao": "apresentacao",
+ "texto": "Oi, Doutora Audrey! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site da Doutora Audrey Naufal, prontinho. Deixa eu te mostrar. Logo de cara, o nome da Doutora Audrey Naufal em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com cento e oitenta e quatro avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui a cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@25": 8.459,
+  "E#nota@45": 15.332,
+  "Descendo#serv@66": 21.973,
+  "Aqui#sobre@82": 27.325,
+  "E#aval@95": 31.439,
+  "No#contato@111": 35.607,
+  "E#whats@124": 39.705,
+  "Ficou#fecha@146": 45.347,
+  "WhatsApp#toque@131": 41.168
+ }
+}

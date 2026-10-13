@@ -1,0 +1,15 @@
+{
+ "versao": "apresentacao",
+ "texto": "Olá, equipe Nova Oral! Aqui é o Deivid. Eu preparei uma coisa especial pra vocês: o site da Nova Oral, prontinho. Deixa eu te mostrar. Logo de cara, o nome da Nova Oral em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com cento e oitenta e seis avaliações. Isso convence qualquer um. Descendo, cada tratamento tem o seu próprio botão, com a mensagem pronta para o paciente agendar a avaliação. Aqui o paciente conhece a clínica e entende por que confiar o sorriso a vocês. E o que mais vende: as avaliações reais de quem já é paciente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o paciente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@25": 8.39,
+  "E#nota@44": 14.751,
+  "Descendo#serv@67": 22.542,
+  "Aqui#sobre@85": 28.928,
+  "E#aval@100": 33.63,
+  "No#contato@116": 38.692,
+  "E#whats@129": 43.08,
+  "Ficou#fecha@151": 49.465,
+  "WhatsApp#toque@136": 44.74
+ }
+}

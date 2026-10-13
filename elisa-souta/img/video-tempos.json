@@ -1,15 +1,15 @@
 {
  "versao": "apresentacao",
- "texto": "Oi, equipe Instituto Elisa Souta! Aqui é o Deivid. Eu preparei uma coisa especial pra vocês: o site do Instituto Elisa Souta, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com quatrocentas e setenta e seis avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui o cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
+ "texto": "Oi, Elisa! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site do Instituto Elisa Souta, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com quatrocentas e setenta e seis avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui a cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
  "cenas": {
-  "Logo#logo@27": 9.689,
-  "E#nota@44": 15.25,
-  "Descendo#serv@67": 23.4,
-  "Aqui#sobre@83": 28.811,
-  "E#aval@96": 32.247,
-  "No#contato@112": 36.74,
-  "E#whats@125": 41.059,
-  "Ficou#fecha@147": 46.759,
-  "WhatsApp#toque@132": 42.568
+  "Logo#logo@24": 9.075,
+  "E#nota@41": 14.555,
+  "Descendo#serv@64": 22.868,
+  "Aqui#sobre@80": 28.371,
+  "E#aval@93": 32.934,
+  "No#contato@109": 37.404,
+  "E#whats@122": 41.409,
+  "Ficou#fecha@144": 47.481,
+  "WhatsApp#toque@129": 43.127
  }
 }

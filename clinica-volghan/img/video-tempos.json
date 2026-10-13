@@ -1,15 +1,15 @@
 {
  "versao": "apresentacao",
- "texto": "Oi, equipe Clínica Vólgan! Aqui é o Deivid. Eu preparei uma coisa especial pra vocês: o site da Clínica Vólgan, prontinho. Deixa eu te mostrar. Logo de cara, o nome da Clínica Vólgan em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com duzentas e dezessete avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui o cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
+ "texto": "Oi, equipe Clínica Vólgan! Aqui é o Deivid. Eu preparei uma coisa especial pra vocês: o site da Clínica Vólgan, prontinho. Deixa eu te mostrar. Logo de cara, o nome da Clínica Vólgan em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com duzentas e dezessete avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui a cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
  "cenas": {
   "Logo#logo@25": 9.77,
   "E#nota@44": 17.026,
   "Descendo#serv@65": 24.236,
   "Aqui#sobre@81": 29.577,
-  "E#aval@94": 33.188,
-  "No#contato@110": 37.472,
-  "E#whats@123": 41.617,
-  "Ficou#fecha@145": 47.364,
-  "WhatsApp#toque@130": 43.103
+  "E#aval@94": 33.691,
+  "No#contato@110": 37.975,
+  "E#whats@123": 42.12,
+  "Ficou#fecha@145": 47.867,
+  "WhatsApp#toque@130": 43.606
  }
 }

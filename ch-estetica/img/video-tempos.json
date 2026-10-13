@@ -1,0 +1,15 @@
+{
+ "versao": "apresentacao",
+ "texto": "Oi, Carla! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site da Cê Agá Estética, prontinho. Deixa eu te mostrar. Logo de cara, o nome da Cê Agá Estética em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com cento e dezenove avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui a cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@24": 8.041,
+  "E#nota@44": 14.578,
+  "Descendo#serv@63": 20.987,
+  "Aqui#sobre@79": 26.13,
+  "E#aval@92": 30.078,
+  "No#contato@108": 34.838,
+  "E#whats@121": 39.099,
+  "Ficou#fecha@143": 45.588,
+  "WhatsApp#toque@128": 40.816
+ }
+}

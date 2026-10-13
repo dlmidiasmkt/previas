@@ -1,0 +1,15 @@
+{
+ "versao": "apresentacao",
+ "texto": "Oi, Doutora Jemilie! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site da Doutora Jêmili Cassaniga, prontinho. Deixa eu te mostrar. Logo de cara, o nome da Doutora Jêmili Cassaniga em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com cento e sessenta e duas avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui a cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@25": 9.005,
+  "E#nota@45": 16.052,
+  "Descendo#serv@66": 22.647,
+  "Aqui#sobre@82": 28.277,
+  "E#aval@95": 32.074,
+  "No#contato@111": 36.845,
+  "E#whats@124": 41.293,
+  "Ficou#fecha@146": 47.272,
+  "WhatsApp#toque@131": 42.86
+ }
+}

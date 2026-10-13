@@ -1,0 +1,15 @@
+{
+ "versao": "apresentacao",
+ "texto": "Olá, Doutor Gabriel! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site da Solutia, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com duas mil cento e dez avaliações. Isso convence qualquer um. Descendo, cada tratamento tem o seu próprio botão, com a mensagem pronta para o paciente agendar a avaliação. Aqui o paciente conhece a clínica e entende por que confiar o sorriso a vocês. E o que mais vende: as avaliações reais de quem já é paciente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o paciente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@23": 8.239,
+  "E#nota@40": 14.392,
+  "Descendo#serv@63": 21.776,
+  "Aqui#sobre@81": 28.266,
+  "E#aval@96": 33.641,
+  "No#contato@112": 38.529,
+  "E#whats@125": 43.289,
+  "Ficou#fecha@147": 50.221,
+  "WhatsApp#toque@132": 45.124
+ }
+}

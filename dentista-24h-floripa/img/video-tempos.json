@@ -1,0 +1,15 @@
+{
+ "versao": "apresentacao",
+ "texto": "Olá, Doutor Lucas! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site do Doutor Lucas Santos, prontinho. Deixa eu te mostrar. Logo de cara, o nome do Doutor Lucas Santos em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com quatrocentas e trinta e cinco avaliações. Isso convence qualquer um. Descendo, cada tratamento tem o seu próprio botão, com a mensagem pronta para o paciente agendar a avaliação. Aqui o paciente conhece a clínica e entende por que confiar o sorriso a vocês. E o que mais vende: as avaliações reais de quem já é paciente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o paciente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@25": 9.017,
+  "E#nota@45": 15.553,
+  "Descendo#serv@66": 23.181,
+  "Aqui#sobre@84": 29.845,
+  "E#aval@99": 34.269,
+  "No#contato@115": 39.33,
+  "E#whats@128": 43.382,
+  "Ficou#fecha@150": 49.942,
+  "WhatsApp#toque@135": 45.077
+ }
+}

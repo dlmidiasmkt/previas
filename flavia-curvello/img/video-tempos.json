@@ -1,0 +1,15 @@
+{
+ "versao": "apresentacao",
+ "texto": "Oi, Doutora Flávia! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site da Doutora Flávia Curvello, prontinho. Deixa eu te mostrar. Logo de cara, o nome da Doutora Flávia Curvello em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com cento e cinquenta e três avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui a cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@25": 8.599,
+  "E#nota@45": 15.252,
+  "Descendo#serv@68": 22.601,
+  "Aqui#sobre@84": 28.196,
+  "E#aval@97": 32.434,
+  "No#contato@113": 37.066,
+  "E#whats@126": 41.373,
+  "Ficou#fecha@148": 47.422,
+  "WhatsApp#toque@133": 42.999
+ }
+}

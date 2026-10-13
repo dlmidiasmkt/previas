@@ -1,0 +1,15 @@
+{
+ "versao": "apresentacao",
+ "texto": "Olá, Doutora Juliana! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site da Clínica Quierentin, prontinho. Deixa eu te mostrar. Logo de cara, o nome da Clínica Quierentin em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com cento e sessenta e uma avaliações. Isso convence qualquer um. Descendo, cada tratamento tem o seu próprio botão, com a mensagem pronta para o paciente agendar a avaliação. Aqui o paciente conhece a clínica e entende por que confiar o sorriso a vocês. E o que mais vende: as avaliações reais de quem já é paciente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o paciente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@24": 8.424,
+  "E#nota@43": 15.356,
+  "Descendo#serv@66": 22.426,
+  "Aqui#sobre@84": 28.893,
+  "E#aval@99": 33.189,
+  "No#contato@115": 37.984,
+  "E#whats@128": 42.175,
+  "Ficou#fecha@150": 47.968,
+  "WhatsApp#toque@135": 43.661
+ }
+}
