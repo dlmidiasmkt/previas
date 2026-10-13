@@ -1,12 +1,15 @@
 {
- "texto": "Fala, pessoal da Oficina do Gu! Aqui é o David! Olha só o site que eu criei pra vocês. Ele já tem a logo, os serviços e as avaliações reais dos clientes, direto do Google. E com um toque, o cliente pede orçamento direto no WhatsApp. Ficou show, né? Dá uma olhada no link e me conta o que achou!",
- "serv": "serviços",
+ "versao": "apresentacao",
+ "texto": "Fala, pessoal da Oficina do Gu! Aqui é o Deivid. Eu preparei uma coisa especial pra vocês: o site da Oficina do Gu, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com vinte e três avaliações. Isso convence qualquer um. Descendo, cada serviço tem o seu próprio botão, com a mensagem pronta para o cliente pedir orçamento. Aqui o cliente entende por que pode confiar o carro a vocês. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só passar o orçamento. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
  "cenas": {
-  "logo": 6.340000000000001,
-  "serviços": 6.92,
-  "avaliações": 7.86,
-  "toque": 11.16,
-  "WhatsApp": 13.44,
-  "Ficou": 14.1
+  "Logo#logo@28": 9.133,
+  "E#nota@45": 14.949,
+  "Descendo#serv@64": 20.498,
+  "Aqui#sobre@81": 26.036,
+  "E#aval@93": 29.879,
+  "No#contato@109": 34.151,
+  "E#whats@122": 38.192,
+  "Ficou#fecha@144": 44.496,
+  "WhatsApp#toque@129": 39.956
  }
 }

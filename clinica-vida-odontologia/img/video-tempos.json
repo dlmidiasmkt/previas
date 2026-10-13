@@ -1,15 +1,15 @@
 {
  "versao": "apresentacao",
- "texto": "Olá, equipe Clínica Vida! Aqui é o David. Eu preparei uma coisa especial pra vocês: o site da Clínica Vida, prontinho. Deixa eu te mostrar. Logo de cara, o nome da Clínica Vida em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com quinhentas e vinte e cinco avaliações. Isso convence qualquer um. Descendo, cada tratamento tem o seu próprio botão, com a mensagem pronta para o paciente agendar a avaliação. Aqui o paciente conhece a clínica e entende por que confiar o sorriso a vocês. E o que mais vende: as avaliações reais de quem já é paciente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o paciente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
+ "texto": "Olá, equipe Clínica Vida! Aqui é o Deivid. Eu preparei uma coisa especial pra vocês: o site da Clínica Vida, prontinho. Deixa eu te mostrar. Logo de cara, o nome da Clínica Vida em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com quinhentas e vinte e cinco avaliações. Isso convence qualquer um. Descendo, cada tratamento tem o seu próprio botão, com a mensagem pronta para o paciente agendar a avaliação. Aqui o paciente conhece a clínica e entende por que confiar o sorriso a vocês. E o que mais vende: as avaliações reais de quem já é paciente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o paciente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
  "cenas": {
-  "Logo#logo@25": 9.133,
-  "E#nota@44": 15.402,
-  "Descendo#serv@65": 21.962,
-  "Aqui#sobre@83": 28.208,
-  "E#aval@98": 32.77,
-  "No#contato@114": 37.182,
-  "E#whats@127": 40.979,
-  "Ficou#fecha@149": 47.387,
-  "WhatsApp#toque@134": 42.709
+  "Logo#logo@25": 9.341,
+  "E#nota@44": 15.61,
+  "Descendo#serv@65": 22.17,
+  "Aqui#sobre@83": 28.416,
+  "E#aval@98": 32.978,
+  "No#contato@114": 37.39,
+  "E#whats@127": 41.187,
+  "Ficou#fecha@149": 47.595,
+  "WhatsApp#toque@134": 42.917
  }
 }

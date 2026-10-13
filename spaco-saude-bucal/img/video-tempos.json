@@ -1,12 +1,15 @@
 {
- "texto": "Olá, equipe Spaço Saúde Bucal, tudo bem? Aqui é o David! Olha só o site que eu criei pra vocês. Ele já tem a logo, os tratamentos e as avaliações reais dos pacientes, direto do Google. E com um toque, o paciente agenda direto no WhatsApp. Ficou muito bacana, né? Dá uma olhada no link e me conta o que você achou!",
- "serv": "tratamentos",
+ "versao": "apresentacao",
+ "texto": "Olá, equipe Spaço Saúde Bucal! Aqui é o Deivid. Eu preparei uma coisa especial pra vocês: o site do Spaço Saúde Bucal, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com cento e catorze avaliações. Isso convence qualquer um. Descendo, cada tratamento tem o seu próprio botão, com a mensagem pronta para o paciente agendar a avaliação. Aqui o paciente conhece a clínica e entende por que confiar o sorriso a vocês. E o que mais vende: as avaliações reais de quem já é paciente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o paciente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
  "cenas": {
-  "logo": 6.96,
-  "tratamentos": 7.7,
-  "avaliações": 8.84,
-  "toque": 12.72,
-  "WhatsApp": 14.860000000000001,
-  "Ficou": 16
+  "Logo#logo@27": 9.702,
+  "E#nota@44": 15.1,
+  "Descendo#serv@65": 22.066,
+  "Aqui#sobre@83": 28.3,
+  "E#aval@98": 33.153,
+  "No#contato@114": 38.018,
+  "E#whats@127": 42.244,
+  "Ficou#fecha@149": 48.467,
+  "WhatsApp#toque@134": 43.997
  }
 }

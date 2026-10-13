@@ -1,12 +1,15 @@
 {
- "texto": "Olá, equipe Sonhando e Sorrindo, tudo bem? Aqui é o David! Olha só o site que eu criei pra vocês. Ele já tem a logo, os tratamentos e as avaliações reais dos pacientes, direto do Google. E com um toque, o paciente agenda direto no WhatsApp. Ficou muito bacana, né? Dá uma olhada no link e me conta o que você achou!",
- "serv": "tratamentos",
+ "versao": "apresentacao",
+ "texto": "Olá, equipe Sonhando e Sorrindo! Aqui é o Deivid. Eu preparei uma coisa especial pra vocês: o site do Sonhando e Sorrindo, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com cinquenta e nove avaliações. Isso convence qualquer um. Descendo, cada tratamento tem o seu próprio botão, com a mensagem pronta para o paciente agendar a avaliação. Aqui o paciente conhece a clínica e entende por que confiar o sorriso a vocês. E o que mais vende: as avaliações reais de quem já é paciente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o paciente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
  "cenas": {
-  "logo": 7.0200000000000005,
-  "tratamentos": 7.74,
-  "avaliações": 8.88,
-  "toque": 12.76,
-  "WhatsApp": 14.92,
-  "Ficou": 16.06
+  "Logo#logo@27": 9.259,
+  "E#nota@44": 15.296,
+  "Descendo#serv@63": 21.6,
+  "Aqui#sobre@81": 28.172,
+  "E#aval@96": 33.048,
+  "No#contato@112": 38.226,
+  "E#whats@125": 42.428,
+  "Ficou#fecha@147": 48.814,
+  "WhatsApp#toque@132": 44.112
  }
 }

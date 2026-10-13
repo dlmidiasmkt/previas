@@ -1,12 +1,15 @@
 {
- "texto": "Olá, equipe Dental Botê, tudo bem? Aqui é o David! Olha só o site que eu criei pra vocês. Ele já tem a logo, os tratamentos e as avaliações reais dos pacientes, direto do Google. E com um toque, o paciente agenda direto no WhatsApp. Ficou muito bacana, né? Dá uma olhada no link e me conta o que você achou!",
- "serv": "tratamentos",
+ "versao": "apresentacao",
+ "texto": "Olá, equipe Dental Botê! Aqui é o Deivid. Eu preparei uma coisa especial pra vocês: o site do Dental Botê, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com quatrocentas e trinta e oito avaliações. Isso convence qualquer um. Descendo, cada tratamento tem o seu próprio botão, com a mensagem pronta para o paciente agendar a avaliação. Aqui o paciente conhece a clínica e entende por que confiar o sorriso a vocês. E o que mais vende: as avaliações reais de quem já é paciente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o paciente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
  "cenas": {
-  "logo": 6.680000000000001,
-  "tratamentos": 7.42,
-  "avaliações": 8.540000000000001,
-  "toque": 12.42,
-  "WhatsApp": 14.58,
-  "Ficou": 15.72
+  "Logo#logo@25": 8.632,
+  "E#nota@42": 14.367,
+  "Descendo#serv@65": 21.449,
+  "Aqui#sobre@83": 28.044,
+  "E#aval@98": 32.119,
+  "No#contato@114": 36.74,
+  "E#whats@127": 40.769,
+  "Ficou#fecha@149": 46.492,
+  "WhatsApp#toque@134": 42.301
  }
 }

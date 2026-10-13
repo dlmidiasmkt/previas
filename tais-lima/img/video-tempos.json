@@ -1,12 +1,15 @@
 {
- "texto": "Oi, Doutora Taís, tudo bem? Aqui é o David! Olha só o site que eu criei pra você. Ele já tem a logo, os procedimentos e as avaliações reais dos clientes, direto do Google. E com um toque, o cliente agenda direto no WhatsApp. Ficou muito legal, né? Dá uma olhada no link que eu te enviei e me conta o que achou!",
- "serv": "procedimentos",
+ "versao": "apresentacao",
+ "texto": "Oi, Doutora Taís! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site do Dra. Taís Lima, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com cinquenta e cinco avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui o cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
  "cenas": {
-  "logo": 6.42,
-  "procedimentos": 7.24,
-  "avaliações": 8.4,
-  "toque": 12.24,
-  "WhatsApp": 14.38,
-  "Ficou": 15.42
+  "Logo#logo@25": 8.134,
+  "E#nota@42": 14.229,
+  "Descendo#serv@61": 19.953,
+  "Aqui#sobre@77": 25.526,
+  "E#aval@90": 29.635,
+  "No#contato@106": 34.047,
+  "E#whats@119": 38.47,
+  "Ficou#fecha@141": 44.543,
+  "WhatsApp#toque@126": 40.305
  }
 }

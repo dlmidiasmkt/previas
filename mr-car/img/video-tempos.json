@@ -1,12 +1,15 @@
 {
- "texto": "Fala, pessoal da Ême Érre Car! Aqui é o David! Olha só o site que eu criei pra vocês. Ele já tem a logo, os serviços e as avaliações reais dos clientes, direto do Google. E com um toque, o cliente pede orçamento direto no WhatsApp. Ficou show, né? Dá uma olhada no link e me conta o que achou!",
- "serv": "serviços",
+ "versao": "apresentacao",
+ "texto": "Fala, pessoal da Ême Érre Car! Aqui é o Deivid. Eu preparei uma coisa especial pra vocês: o site da Ême Érre Car, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com setenta e três avaliações. Isso convence qualquer um. Descendo, cada serviço tem o seu próprio botão, com a mensagem pronta para o cliente pedir orçamento. Aqui o cliente entende por que pode confiar o carro a vocês. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só passar o orçamento. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
  "cenas": {
-  "logo": 6.66,
-  "serviços": 7.220000000000001,
-  "avaliações": 8.16,
-  "toque": 11.48,
-  "WhatsApp": 13.76,
-  "Ficou": 14.42
+  "Logo#logo@28": 9.063,
+  "E#nota@45": 14.856,
+  "Descendo#serv@64": 20.94,
+  "Aqui#sobre@81": 26.989,
+  "E#aval@93": 30.6,
+  "No#contato@109": 34.965,
+  "E#whats@122": 39.098,
+  "Ficou#fecha@144": 45.611,
+  "WhatsApp#toque@129": 40.817
  }
 }

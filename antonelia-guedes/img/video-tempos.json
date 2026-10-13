@@ -1,12 +1,15 @@
 {
- "texto": "Olá, Doutora Antonelia, tudo bem? Aqui é o David! Olha só o site que eu criei pra vocês. Ele já tem a logo, os tratamentos e as avaliações reais dos pacientes, direto do Google. E com um toque, o paciente agenda direto no WhatsApp. Ficou muito bacana, né? Dá uma olhada no link e me conta o que você achou!",
- "serv": "tratamentos",
+ "versao": "apresentacao",
+ "texto": "Olá, Doutora Antonelia! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site do Dra. Antonelia Guedes, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com duzentas e cinco avaliações. Isso convence qualquer um. Descendo, cada tratamento tem o seu próprio botão, com a mensagem pronta para o paciente agendar a avaliação. Aqui o paciente conhece a clínica e entende por que confiar o sorriso a vocês. E o que mais vende: as avaliações reais de quem já é paciente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o paciente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
  "cenas": {
-  "logo": 6.880000000000001,
-  "tratamentos": 7.6000000000000005,
-  "avaliações": 8.74,
-  "toque": 12.620000000000001,
-  "WhatsApp": 14.780000000000001,
-  "Ficou": 15.92
+  "Logo#logo@25": 9.364,
+  "E#nota@42": 15.076,
+  "Descendo#serv@61": 21.566,
+  "Aqui#sobre@79": 28.126,
+  "E#aval@94": 33.35,
+  "No#contato@110": 37.762,
+  "E#whats@123": 41.907,
+  "Ficou#fecha@145": 48.165,
+  "WhatsApp#toque@130": 43.637
  }
 }

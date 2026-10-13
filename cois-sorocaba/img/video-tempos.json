@@ -1,15 +1,15 @@
 {
  "versao": "apresentacao",
- "texto": "Olá, equipe Clínica Cois! Aqui é o David. Eu preparei uma coisa especial pra vocês: o site da Clínica Cois, prontinho. Deixa eu te mostrar. Logo de cara, o nome da Clínica Cois em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com quatrocentas e oitenta avaliações. Isso convence qualquer um. Descendo, cada tratamento tem o seu próprio botão, com a mensagem pronta para o paciente agendar a avaliação. Aqui o paciente conhece a clínica e entende por que confiar o sorriso a vocês. E o que mais vende: as avaliações reais de quem já é paciente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o paciente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
+ "texto": "Olá, equipe Clínica Cois! Aqui é o Deivid. Eu preparei uma coisa especial pra vocês: o site da Clínica Cois, prontinho. Deixa eu te mostrar. Logo de cara, o nome da Clínica Cois em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com quatrocentas e oitenta avaliações. Isso convence qualquer um. Descendo, cada tratamento tem o seu próprio botão, com a mensagem pronta para o paciente agendar a avaliação. Aqui o paciente conhece a clínica e entende por que confiar o sorriso a vocês. E o que mais vende: as avaliações reais de quem já é paciente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o paciente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
  "cenas": {
-  "Logo#logo@25": 9.179,
-  "E#nota@44": 15.611,
-  "Descendo#serv@65": 23.529,
-  "Aqui#sobre@83": 30.077,
-  "E#aval@98": 34.791,
-  "No#contato@114": 39.423,
-  "E#whats@127": 43.591,
-  "Ficou#fecha@149": 50.232,
-  "WhatsApp#toque@134": 45.333
+  "Logo#logo@25": 9.294,
+  "E#nota@44": 15.726,
+  "Descendo#serv@65": 23.644,
+  "Aqui#sobre@83": 30.192,
+  "E#aval@98": 34.906,
+  "No#contato@114": 39.538,
+  "E#whats@127": 43.706,
+  "Ficou#fecha@149": 50.347,
+  "WhatsApp#toque@134": 45.448
  }
 }

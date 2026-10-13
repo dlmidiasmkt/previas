@@ -1,12 +1,15 @@
 {
- "texto": "Olá, equipe Odonto Fontes, tudo bem? Aqui é o David! Olha só o site que eu criei pra vocês. Ele já tem a logo, os tratamentos e as avaliações reais dos pacientes, direto do Google. E com um toque, o paciente agenda direto no WhatsApp. Ficou muito bacana, né? Dá uma olhada no link e me conta o que você achou!",
- "serv": "tratamentos",
+ "versao": "apresentacao",
+ "texto": "Olá, equipe Odonto Fontes! Aqui é o Deivid. Eu preparei uma coisa especial pra vocês: o site do Odonto Fontes, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com trinta e nove avaliações. Isso convence qualquer um. Descendo, cada tratamento tem o seu próprio botão, com a mensagem pronta para o paciente agendar a avaliação. Aqui o paciente conhece a clínica e entende por que confiar o sorriso a vocês. E o que mais vende: as avaliações reais de quem já é paciente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o paciente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
  "cenas": {
-  "logo": 6.82,
-  "tratamentos": 7.5600000000000005,
-  "avaliações": 8.700000000000001,
-  "toque": 12.58,
-  "WhatsApp": 14.72,
-  "Ficou": 15.860000000000001
+  "Logo#logo@25": 9.063,
+  "E#nota@42": 14.717,
+  "Descendo#serv@61": 21.671,
+  "Aqui#sobre@79": 27.964,
+  "E#aval@94": 33.339,
+  "No#contato@110": 38.041,
+  "E#whats@123": 42.279,
+  "Ficou#fecha@145": 48.943,
+  "WhatsApp#toque@130": 44.114
  }
 }

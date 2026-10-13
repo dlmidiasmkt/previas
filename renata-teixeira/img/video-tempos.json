@@ -1,12 +1,15 @@
 {
- "texto": "Oi, Renata, tudo bem? Aqui é o David! Olha só o site que eu criei pra você. Ele já tem a logo, os procedimentos e as avaliações reais dos clientes, direto do Google. E com um toque, o cliente agenda direto no WhatsApp. Ficou muito legal, né? Dá uma olhada no link que eu te enviei e me conta o que achou!",
- "serv": "procedimentos",
+ "versao": "apresentacao",
+ "texto": "Oi, Renata! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site da Renata Teixeira, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com sessenta e sete avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui o cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
  "cenas": {
-  "logo": 6,
-  "procedimentos": 6.800000000000001,
-  "avaliações": 7.98,
-  "toque": 11.8,
-  "WhatsApp": 13.94,
-  "Ficou": 14.98
+  "Logo#logo@23": 8.041,
+  "E#nota@40": 13.509,
+  "Descendo#serv@59": 19.314,
+  "Aqui#sobre@75": 24.469,
+  "E#aval@88": 28.799,
+  "No#contato@104": 33.42,
+  "E#whats@117": 37.483,
+  "Ficou#fecha@139": 43.486,
+  "WhatsApp#toque@124": 39.039
  }
 }

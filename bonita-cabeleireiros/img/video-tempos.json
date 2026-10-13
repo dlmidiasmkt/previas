@@ -1,15 +1,15 @@
 {
  "versao": "apresentacao",
- "texto": "Oi, equipe Bonitá Cabeleireiros! Aqui é o David. Eu preparei uma coisa especial pra vocês: o site do Bonitá Cabeleireiros, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com setenta e nove avaliações. Isso convence qualquer um. Descendo, cada serviço tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui o cliente conhece o salão e já se imagina na cadeira. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
+ "texto": "Oi, equipe Bonitá Cabeleireiros! Aqui é o Deivid. Eu preparei uma coisa especial pra vocês: o site do Bonitá Cabeleireiros, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com setenta e nove avaliações. Isso convence qualquer um. Descendo, cada serviço tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui o cliente conhece o salão e já se imagina na cadeira. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
  "cenas": {
-  "Logo#logo@25": 9.365,
-  "E#nota@42": 14.578,
-  "Descendo#serv@63": 21.254,
-  "Aqui#sobre@79": 26.327,
-  "E#aval@91": 29.462,
-  "No#contato@107": 33.595,
-  "E#whats@120": 37.391,
-  "Ficou#fecha@142": 43.045,
-  "WhatsApp#toque@127": 38.877
+  "Logo#logo@25": 9.55,
+  "E#nota@42": 14.763,
+  "Descendo#serv@63": 21.439,
+  "Aqui#sobre@79": 26.512,
+  "E#aval@91": 29.647,
+  "No#contato@107": 33.78,
+  "E#whats@120": 37.576,
+  "Ficou#fecha@142": 43.23,
+  "WhatsApp#toque@127": 39.062
  }
 }
