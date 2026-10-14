@@ -1,0 +1,15 @@
+{
+ "versao": "sem-voz",
+ "texto": "Oi, Adalgisa! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site da Adalgisa Castro, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula sete do Google, com cento e cinquenta e duas avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui a cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@23": 9.56,
+  "E#nota@40": 15.5,
+  "Descendo#serv@57": 21.52,
+  "Aqui#sobre@73": 27.06,
+  "E#aval@86": 31.39,
+  "No#contato@102": 36.76,
+  "E#whats@115": 41.53,
+  "Ficou#fecha@137": 48.87,
+  "WhatsApp#toque@122": 43.52
+ }
+}

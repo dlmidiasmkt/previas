@@ -1,0 +1,15 @@
+{
+ "versao": "sem-voz",
+ "texto": "Oi, equipe Bela Vita! Aqui é o Deivid. Eu preparei uma coisa especial pra vocês: o site da Bela Vita, prontinho. Deixa eu te mostrar. Logo de cara, o nome da Bela Vita em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula oito do Google, com oitenta e cinco avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui a cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@23": 9.59,
+  "E#nota@41": 15.84,
+  "Descendo#serv@58": 21.85,
+  "Aqui#sobre@74": 27.39,
+  "E#aval@87": 31.72,
+  "No#contato@103": 37.09,
+  "E#whats@116": 41.86,
+  "Ficou#fecha@138": 49.2,
+  "WhatsApp#toque@123": 43.85
+ }
+}

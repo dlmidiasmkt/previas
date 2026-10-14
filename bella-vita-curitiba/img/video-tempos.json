@@ -1,0 +1,15 @@
+{
+ "versao": "sem-voz",
+ "texto": "Oi, Doutora Larissa! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site da Bella Vita, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com cento e vinte e sete avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui a cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@24": 10.09,
+  "E#nota@41": 16.03,
+  "Descendo#serv@58": 22.08,
+  "Aqui#sobre@74": 27.62,
+  "E#aval@87": 31.95,
+  "No#contato@103": 37.32,
+  "E#whats@116": 42.09,
+  "Ficou#fecha@138": 49.43,
+  "WhatsApp#toque@123": 44.08
+ }
+}
