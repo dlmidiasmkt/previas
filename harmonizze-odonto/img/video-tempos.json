@@ -1,0 +1,15 @@
+{
+ "versao": "sem-voz",
+ "texto": "Olá, Doutora Deyse Danielle! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site da Harmonize, prontinho. Deixa eu te mostrar. Logo de cara, o nome da Harmonize em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com duzentas e quinze avaliações. Isso convence qualquer um. Descendo, cada tratamento tem o seu próprio botão, com a mensagem pronta para o paciente agendar a avaliação. Aqui o paciente conhece a clínica e entende por que confiar o sorriso a vocês. E o que mais vende: as avaliações reais de quem já é paciente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o paciente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@24": 10.16,
+  "E#nota@42": 16.41,
+  "Descendo#serv@59": 22.43,
+  "Aqui#sobre@77": 28.54,
+  "E#aval@92": 33.4,
+  "No#contato@108": 38.78,
+  "E#whats@121": 43.55,
+  "Ficou#fecha@143": 50.9,
+  "WhatsApp#toque@128": 45.54
+ }
+}

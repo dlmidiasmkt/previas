@@ -1,0 +1,15 @@
+{
+ "versao": "sem-voz",
+ "texto": "Olá, Doutora Isabelly! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site do Doutora Isabelly Galhardo, prontinho. Deixa eu te mostrar. Logo de cara, o nome do Doutora Isabelly Galhardo em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com cento e sessenta e quatro avaliações. Isso convence qualquer um. Descendo, cada tratamento tem o seu próprio botão, com a mensagem pronta para o paciente agendar a avaliação. Aqui o paciente conhece a clínica e entende por que confiar o sorriso a vocês. E o que mais vende: as avaliações reais de quem já é paciente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o paciente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@25": 10.77,
+  "E#nota@45": 17.9,
+  "Descendo#serv@62": 23.95,
+  "Aqui#sobre@80": 30.06,
+  "E#aval@95": 34.92,
+  "No#contato@111": 40.3,
+  "E#whats@124": 45.07,
+  "Ficou#fecha@146": 52.42,
+  "WhatsApp#toque@131": 47.06
+ }
+}

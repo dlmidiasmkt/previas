@@ -1,0 +1,11 @@
+[abre] Olá, Dr. Jhonata! Aqui é o David. Eu preparei uma coisa especial pra você: o site da Clínica Monet, prontinho. Deixa eu te mostrar.
+[logo] Logo de cara, o nome da Clínica Monet em destaque, num visual profissional, que passa confiança em poucos segundos.
+[nota] E já na primeira tela, a nota máxima do Google, com 167 avaliações. Isso convence qualquer um.
+[serv] Descendo, cada tratamento tem o seu próprio botão, com a mensagem pronta para o paciente agendar a avaliação.
+[sobre] Aqui o paciente conhece a clínica e entende por que confiar o sorriso a vocês.
+[aval] E o que mais vende: as avaliações reais de quem já é paciente, direto do Google.
+[contato] No final, endereço, horário e o mapa, pra ninguém se perder no caminho.
+[whats] E o principal: com um toque no WhatsApp, o paciente já chega com a mensagem escrita. Aí é só confirmar o horário.
+[fecha] Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!
+
+(sem voz: legenda + trilha)

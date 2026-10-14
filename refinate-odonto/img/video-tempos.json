@@ -1,0 +1,15 @@
+{
+ "versao": "sem-voz",
+ "texto": "Olá, Doutor Lucas! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site da Refináte Odontologia, prontinho. Deixa eu te mostrar. Logo de cara, o nome da Refináte Odontologia em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com cento e cinquenta e três avaliações. Isso convence qualquer um. Descendo, cada tratamento tem o seu próprio botão, com a mensagem pronta para o paciente agendar a avaliação. Aqui o paciente conhece a clínica e entende por que confiar o sorriso a vocês. E o que mais vende: as avaliações reais de quem já é paciente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o paciente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@24": 10.15,
+  "E#nota@43": 16.71,
+  "Descendo#serv@60": 22.76,
+  "Aqui#sobre@78": 28.87,
+  "E#aval@93": 33.73,
+  "No#contato@109": 39.11,
+  "E#whats@122": 43.88,
+  "Ficou#fecha@144": 51.23,
+  "WhatsApp#toque@129": 45.87
+ }
+}

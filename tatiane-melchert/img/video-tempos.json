@@ -1,0 +1,15 @@
+{
+ "versao": "sem-voz",
+ "texto": "Olá, Doutora Tatiane! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site do Doutora Tatiane Mélquert, prontinho. Deixa eu te mostrar. Logo de cara, o nome do Doutora Tatiane Mélquert em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com oitenta e seis avaliações. Isso convence qualquer um. Descendo, cada tratamento tem o seu próprio botão, com a mensagem pronta para o paciente agendar a avaliação. Aqui o paciente conhece a clínica e entende por que confiar o sorriso a vocês. E o que mais vende: as avaliações reais de quem já é paciente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o paciente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@25": 10.75,
+  "E#nota@45": 17.87,
+  "Descendo#serv@62": 23.91,
+  "Aqui#sobre@80": 30.02,
+  "E#aval@95": 34.88,
+  "No#contato@111": 40.26,
+  "E#whats@124": 45.03,
+  "Ficou#fecha@146": 52.38,
+  "WhatsApp#toque@131": 47.02
+ }
+}
