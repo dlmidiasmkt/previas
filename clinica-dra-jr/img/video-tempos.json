@@ -1,0 +1,15 @@
+{
+ "versao": "sem-voz",
+ "texto": "Oi, Doutora Jadi Reis! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site da Doutora Jádi Reis, prontinho. Deixa eu te mostrar. Logo de cara, o nome da Doutora Jádi Reis em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com cinquenta e quatro avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui a cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@26": 10.91,
+  "E#nota@46": 17.96,
+  "Descendo#serv@63": 23.97,
+  "Aqui#sobre@79": 29.51,
+  "E#aval@92": 33.84,
+  "No#contato@108": 39.21,
+  "E#whats@121": 43.98,
+  "Ficou#fecha@143": 51.32,
+  "WhatsApp#toque@128": 45.97
+ }
+}

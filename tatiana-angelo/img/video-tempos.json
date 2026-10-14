@@ -1,0 +1,15 @@
+{
+ "versao": "sem-voz",
+ "texto": "Oi, Doutora Tatiana! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site da Doutora Tatiana Angelo, prontinho. Deixa eu te mostrar. Logo de cara, o nome da Doutora Tatiana Angelo em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula oito do Google, com cinquenta avaliações. Isso convence qualquer um. Descendo, cada procedimento tem o seu próprio botão, com a mensagem pronta para o cliente agendar. Aqui a cliente conhece o seu trabalho e se sente segura para agendar. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só confirmar o horário. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@25": 10.72,
+  "E#nota@45": 17.82,
+  "Descendo#serv@62": 23.83,
+  "Aqui#sobre@78": 29.37,
+  "E#aval@91": 33.7,
+  "No#contato@107": 39.07,
+  "E#whats@120": 43.84,
+  "Ficou#fecha@142": 51.18,
+  "WhatsApp#toque@127": 45.83
+ }
+}
