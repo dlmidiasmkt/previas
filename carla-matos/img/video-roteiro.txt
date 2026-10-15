@@ -1,0 +1,11 @@
+[abre] Olá, Dra. Carla! Aqui é o David. Eu preparei uma coisa especial pra você: o site do Carla Matos Advocacia, prontinho. Deixa eu te mostrar.
+[logo] Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos.
+[nota] E já na primeira tela, a nota máxima do Google, com 54 avaliações. Isso convence qualquer um.
+[serv] Descendo, cada área tem o seu próprio botão, com a mensagem pronta para o cliente pedir atendimento.
+[sobre] Aqui o cliente conhece o escritório e entende por que confiar o caso a vocês.
+[aval] E o que mais vende: as avaliações reais de quem já é cliente, direto do Google.
+[contato] No final, endereço, horário e o mapa, pra ninguém se perder no caminho.
+[whats] E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só responder e marcar a conversa.
+[fecha] Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!
+
+(sem voz: legenda + trilha)

@@ -1,0 +1,15 @@
+{
+ "versao": "sem-voz",
+ "texto": "Olá, Doutora Ana Carolina! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site do Ana Carolina Andrade Advocacia, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com trinta e duas avaliações. Isso convence qualquer um. Descendo, cada área tem o seu próprio botão, com a mensagem pronta para o cliente pedir atendimento. Aqui o cliente conhece o escritório e entende por que confiar o caso a vocês. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só responder e marcar a conversa. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@27": 11.01,
+  "E#nota@44": 16.95,
+  "Descendo#serv@61": 22.99,
+  "Aqui#sobre@78": 28.77,
+  "E#aval@93": 33.62,
+  "No#contato@109": 38.99,
+  "E#whats@122": 43.76,
+  "Ficou#fecha@146": 51.64,
+  "WhatsApp#toque@129": 45.75
+ }
+}
