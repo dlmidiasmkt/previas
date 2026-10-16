@@ -1,0 +1,15 @@
+{
+ "versao": "sem-voz",
+ "texto": "Olá, equipe Arquitetura e Interiores Águas Claras! Aqui é o Deivid. Eu preparei uma coisa especial pra vocês: o site do Arquitetura e Interiores Águas Claras, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com vinte e três avaliações. Isso convence qualquer um. Descendo, cada serviço tem o seu próprio botão, com a mensagem pronta para o cliente conversar sobre o projeto. Aqui o cliente vê o cuidado com cada detalhe e entende o valor do projeto. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só marcar a primeira conversa. Ficou pronto, e é sem compromisso. Se gostarem, o site é de vocês. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@31": 11.9,
+  "E#nota@48": 17.84,
+  "Descendo#serv@65": 23.88,
+  "Aqui#sobre@84": 30.23,
+  "E#aval@99": 35.05,
+  "No#contato@115": 40.42,
+  "E#whats@128": 45.19,
+  "Ficou#fecha@151": 52.82,
+  "WhatsApp#toque@135": 47.18
+ }
+}

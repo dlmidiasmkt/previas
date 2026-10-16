@@ -1,0 +1,15 @@
+{
+ "versao": "sem-voz",
+ "texto": "Olá, Doutora Claudia! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site do Claudia Bagâno Advocacia, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota quatro vírgula nove do Google, com vinte e uma avaliações. Isso convence qualquer um. Descendo, cada área tem o seu próprio botão, com a mensagem pronta para o cliente pedir atendimento. Aqui o cliente conhece o escritório e entende por que confiar o caso a vocês. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só responder e marcar a conversa. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@25": 10.46,
+  "E#nota@42": 16.4,
+  "Descendo#serv@59": 22.41,
+  "Aqui#sobre@76": 28.19,
+  "E#aval@91": 33.04,
+  "No#contato@107": 38.41,
+  "E#whats@120": 43.18,
+  "Ficou#fecha@144": 51.06,
+  "WhatsApp#toque@127": 45.17
+ }
+}

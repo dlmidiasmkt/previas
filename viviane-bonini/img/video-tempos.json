@@ -1,0 +1,15 @@
+{
+ "versao": "sem-voz",
+ "texto": "Olá, Viviane! Aqui é o Deivid. Eu preparei uma coisa especial pra você: o site do Viviane Bonini Arquitetura, prontinho. Deixa eu te mostrar. Logo de cara, a sua marca em destaque, num visual profissional, que passa confiança em poucos segundos. E já na primeira tela, a nota máxima do Google, com quarenta e sete avaliações. Isso convence qualquer um. Descendo, cada serviço tem o seu próprio botão, com a mensagem pronta para o cliente conversar sobre o projeto. Aqui o cliente vê o cuidado com cada detalhe e entende o valor do projeto. E o que mais vende: as avaliações reais de quem já é cliente, direto do Google. No final, endereço, horário e o mapa, pra ninguém se perder no caminho. E o principal: com um toque no WhatsApp, o cliente já chega com a mensagem escrita. Aí é só marcar a primeira conversa. Ficou pronto, e é sem compromisso. Se gostar, o site é seu. Abre o link e me conta o que achou!",
+ "cenas": {
+  "Logo#logo@24": 9.87,
+  "E#nota@41": 15.81,
+  "Descendo#serv@58": 21.85,
+  "Aqui#sobre@77": 28.2,
+  "E#aval@92": 33.02,
+  "No#contato@108": 38.39,
+  "E#whats@121": 43.16,
+  "Ficou#fecha@144": 50.79,
+  "WhatsApp#toque@128": 45.15
+ }
+}
