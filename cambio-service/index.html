@@ -162,7 +162,7 @@
     --max: 1240px;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  html { background: var(--black); }
+  html { background: var(--black); overflow-x: clip; }
   body { background: var(--black); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.5; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
   img { display: block; max-width: 100%; }
   a { color: inherit; text-decoration: none; }
@@ -197,7 +197,7 @@
   .topbar .wrap { display: flex; align-items: center; justify-content: space-between; height: 68px; gap: 20px; }
   .logo { display: flex; align-items: center; gap: 12px; }
   .logo svg { height: 40px; width: auto; aspect-ratio: 214 / 64; overflow: visible; }
-  .logo small { font-family: var(--mono); font-weight: 400; font-size: 10px; letter-spacing: .1em; color: var(--muted); padding-left: 12px; border-left: 1px solid var(--line); }
+  .logo small { font-family: var(--mono); font-weight: 400; font-size: 11px; letter-spacing: .1em; color: var(--muted); padding-left: 12px; border-left: 1px solid var(--line); }
   .menu { display: flex; gap: 28px; font-size: 14px; color: var(--muted); }
   .menu a { position: relative; padding: 6px 0; transition: color .3s; }
   .menu a:hover, .menu a.is-active { color: var(--ink); }
@@ -248,7 +248,7 @@
     font-size: clamp(34px, 4.6vw, 64px); line-height: .95; letter-spacing: -.03em;
   }
   .hero h1 em { font-style: normal; color: var(--amber); }
-  .hero h1 sup { font-size: .35em; vertical-align: super; color: var(--muted); font-weight: 600; }
+  .hero h1 sup { font-size: max(.35em, 13px); vertical-align: super; color: var(--muted); font-weight: 600; }
   .hero__lead { margin-top: 24px; max-width: 540px; font-size: 18px; color: var(--muted); }
   .hero__lead strong { color: var(--ink); font-weight: 600; }
   .hero__actions { display: flex; gap: 12px; margin-top: 36px; flex-wrap: wrap; }
@@ -277,9 +277,9 @@
   }
   .knob-chip strong { font-size: 22px; font-weight: 900; font-stretch: 115%; line-height: 1; }
   .knob-chip strong b { color: var(--amber); }
-  .knob-chip span { color: var(--muted); font-size: 11px; }
-  .knob-chip--a { left: -2%; top: 14%; }
-  .knob-chip--b { right: -2%; bottom: 12%; }
+  .knob-chip span { color: var(--muted); font-size: 12px; }
+  .knob-chip--a { left: -4%; top: 4%; }
+  .knob-chip--b { right: -4%; bottom: 4%; }
 
   .tilt { transform-style: preserve-3d; will-change: transform; }
 
@@ -316,7 +316,7 @@
   .sec__head { display: flex; justify-content: space-between; align-items: end; gap: 32px; margin-bottom: 48px; flex-wrap: wrap; }
   .sec__head .label { color: var(--amber); margin-bottom: 14px; display: block; }
   .sec--paper .sec__head .label { color: var(--amber-ink); }
-  .sec h2 { font-weight: 900; font-stretch: 118%; text-transform: uppercase; font-size: clamp(32px, 4.6vw, 60px); line-height: .95; letter-spacing: -.03em; max-width: 780px; }
+  .sec h2 { font-weight: 900; font-stretch: 118%; text-transform: uppercase; font-size: clamp(32px, 4vw, 54px); line-height: .95; letter-spacing: -.03em; max-width: 780px; }
   .sec h2 em { font-style: normal; color: var(--amber); }
   .sec--paper h2 em { color: var(--amber-deep); }
   .sec__head p { max-width: 400px; color: var(--muted); }
@@ -346,7 +346,7 @@
   .service svg { width: 40px; height: 40px; color: var(--amber-deep); }
   .service h3 { font-size: 22px; font-weight: 800; font-stretch: 110%; letter-spacing: -.01em; line-height: 1.1; }
   .service p { color: var(--muted-dark); font-size: 15px; flex: 1; }
-  .service a { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; font-size: 14px; color: var(--ink-dark); margin-top: 8px; }
+  .service a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-weight: 700; font-size: 15px; color: var(--ink-dark); margin-top: 0; }
   .service a span { transition: transform .2s; }
   .service a:hover span { transform: translateX(4px); }
   .service a:hover { color: var(--amber-ink); }
@@ -365,7 +365,7 @@
   .symptom h3 { font-size: 20px; font-weight: 800; font-stretch: 108%; line-height: 1.15; }
   .symptom p { color: var(--muted); font-size: 15px; }
   .symptom p b { color: var(--ink); font-weight: 600; }
-  .symptom a { margin-top: auto; padding-top: 8px; display: inline-flex; align-items: center; gap: 8px; font-weight: 700; font-size: 14px; color: var(--amber); }
+  .symptom a { margin-top: auto; display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-weight: 700; font-size: 15px; color: var(--amber); }
   .symptom a span { transition: transform .2s; }
   .symptom a:hover span { transform: translateX(4px); }
   .symptoms__note { margin-top: 20px; font-size: 13px; color: var(--muted); }
@@ -441,7 +441,8 @@
   .faq details { border-bottom: 1px solid var(--line); }
   .faq summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; gap: 20px; padding: 24px 0; font-size: 19px; font-weight: 700; }
   .faq summary::-webkit-details-marker { display: none; }
-  .faq summary::after { content: "+"; font-weight: 400; font-size: 26px; line-height: 1; color: var(--amber); transition: transform .2s; }
+  .faq summary span { flex: 1; min-width: 0; }
+  .faq summary::after { content: "+"; flex: none; width: 22px; text-align: center; font-weight: 400; font-size: 26px; line-height: 1; color: var(--amber); transition: transform .2s; }
   .faq details[open] summary::after { transform: rotate(45deg); }
   .faq details p { padding: 0 0 24px; color: var(--muted); max-width: 640px; }
 
@@ -451,7 +452,7 @@
   .visit__info dl { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
   .visit__info dl .full { grid-column: span 2; }
   .visit__info dt { color: var(--muted); margin-bottom: 4px; }
-  .visit__info dd { font-size: 17px; font-weight: 600; }
+  .visit__info dd { font-size: 17px; font-weight: 600; overflow-wrap: anywhere; }
   .visit__info dd a:hover { color: var(--amber); }
   .visit__actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: auto; }
   .visit iframe { width: 100%; height: 100%; min-height: 460px; border: 0; filter: grayscale(.35) contrast(1.05); }
@@ -506,9 +507,11 @@
     .topbar .wrap { height: 60px; }
     [id] { scroll-margin-top: 116px; }
     .hero .wrap { grid-template-columns: minmax(0, 1fr); }
-    .knob-art { max-width: 340px; justify-self: center; margin-top: 8px; }
-    .knob-chip--a { left: 0; }
-    .knob-chip--b { right: 0; }
+    .knob-art { max-width: 300px; justify-self: center; margin-top: 8px; }
+    .knob-chip--a { left: -2%; top: 0; }
+    .knob-chip--b { right: -2%; bottom: 0; }
+    .knob-chip { padding: 9px 12px; }
+    .knob-chip strong { font-size: 17px; }
     .resumo, .flow, .areas, .faq, .visit, .reviews { grid-template-columns: minmax(0, 1fr); }
     .score { position: static; }
     .resumo, .areas { gap: 32px; }
@@ -524,6 +527,8 @@
     .visit iframe { min-height: 320px; }
   }
   @media (max-width: 620px) {
+    .sec h2 { font-size: min(32px, 8.4vw); }
+    .hero h1 { font-size: min(34px, 9.6vw); }
     .logo small { display: none; }
     .logo svg { height: 34px; }
     .topbar .btn span { display: none; }
@@ -567,8 +572,8 @@
     <rect x="0" y="4" width="56" height="56" rx="12" fill="#ff8a1f"/>
     <path d="M14 16v32M28 16v32M42 16v32M14 32h28" fill="none" stroke="#0b0c0e" stroke-width="5" stroke-linecap="round"/>
     <circle cx="42" cy="16" r="6.5" fill="#0b0c0e"/><circle cx="42" cy="16" r="2.4" fill="#ff8a1f"/>
-    <text x="70" y="34" font-family="Archivo, sans-serif" font-weight="900" font-size="30" font-stretch="125%" letter-spacing="-.5" fill="url(#lgSteel)">CÂMBIO</text>
-    <text x="71" y="56" font-family="IBM Plex Mono, monospace" font-weight="500" font-size="14.5" letter-spacing="7.6" fill="#ff8a1f">SERVICE</text>
+    <text x="70" y="36" font-family="Archivo, sans-serif" font-weight="900" font-size="30" textLength="140" lengthAdjust="spacingAndGlyphs" fill="url(#lgSteel)">CÂMBIO</text>
+    <text x="71" y="57" font-family="IBM Plex Mono, monospace" font-weight="500" font-size="14" textLength="138" lengthAdjust="spacing" fill="#ff8a1f">SERVICE</text>
   </symbol>
   <symbol id="wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35M12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.31l-.34-.2-3.57.93.95-3.48-.22-.36a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.23-9.43 9.44-9.43 2.52 0 4.89.98 6.67 2.77a9.37 9.37 0 0 1 2.76 6.67c0 5.2-4.23 9.43-9.44 9.43m8.02-17.45A11.27 11.27 0 0 0 12.05.72C5.8.72.71 5.8.7 12.06c0 2 .52 3.95 1.52 5.67L.6 23.6l6-1.58a11.3 11.3 0 0 0 5.43 1.38h.01c6.25 0 11.34-5.09 11.35-11.34 0-3.03-1.18-5.88-3.32-8.02"/></symbol>
   <symbol id="g-logo" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></symbol>
@@ -685,7 +690,7 @@
     <div class="wrap resumo">
       <div class="reveal">
         <span class="label" style="color:var(--amber)">Câmbio Service em resumo</span>
-        <h2 id="resumo-titulo" style="margin:14px 0 28px">Especialista. <em>Só câmbio manual.</em></h2>
+        <h2 id="resumo-titulo" style="margin:14px 0 28px;font-size:clamp(30px,3.8vw,50px)">Especialista. <em>Só câmbio manual.</em></h2>
         <p class="resumo__texto">A <strong>Câmbio Service</strong> é uma oficina especializada em <strong>câmbio manual</strong> na Av. Henrique Morize, 74, Vila Formosa, Zona Leste de São Paulo. Com mais de 30 anos de mercado e nota 4,8 no Google (222 avaliações), atende toda a linha de carros leves e utilitários, mantém peças em estoque e entrega muitos serviços em até 24 horas.</p>
       </div>
       <dl class="facts reveal">
@@ -884,7 +889,7 @@
       <div class="sec__head reveal">
         <div>
           <span class="label">Avaliações no Google</span>
-          <h2>Quem leva o carro, <em>volta recomendando.</em></h2>
+          <h2>Quem leva o carro, <em>volta e recomenda.</em></h2>
         </div>
       </div>
       <div class="reviews">
@@ -959,39 +964,39 @@
       </div>
       <div class="reveal">
         <details open>
-          <summary>A Câmbio Service conserta câmbio automático?</summary>
+          <summary><span>A Câmbio Service conserta câmbio automático?</span></summary>
           <p>Não. A Câmbio Service trabalha exclusivamente com câmbio manual. Esse foco é o que permite ter peças em estoque e entregar muitos serviços em até 24 horas.</p>
         </details>
         <details>
-          <summary>Quanto tempo demora para consertar um câmbio manual?</summary>
+          <summary><span>Quanto tempo demora para consertar um câmbio manual?</span></summary>
           <p>Na Câmbio Service muitos serviços ficam prontos em até 24 horas, conforme o veículo e o tipo de reparo. O prazo exato é informado junto com o orçamento.</p>
         </details>
         <details>
-          <summary>Quais carros vocês atendem?</summary>
+          <summary><span>Quais carros vocês atendem?</span></summary>
           <p>Toda a linha de carros leves e utilitários com câmbio manual, de marcas como Volkswagen, Fiat, Chevrolet, Ford, Renault, Toyota, Honda, Hyundai, Peugeot, Citroën, Nissan e Jeep.</p>
         </details>
         <details>
-          <summary>Meu carro está com a marcha arranhando ou escapando. O que pode ser?</summary>
+          <summary><span>Meu carro está com a marcha arranhando ou escapando. O que pode ser?</span></summary>
           <p>Marcha arranhando costuma indicar desgaste dos anéis sincronizados ou problema na embreagem; marcha escapando pode vir de garfos, luvas de engate ou coxins gastos. Só o diagnóstico confirma a causa. Quanto antes o câmbio for avaliado, menor tende a ser o reparo.</p>
         </details>
         <details>
-          <summary>Como faço um orçamento?</summary>
+          <summary><span>Como faço um orçamento?</span></summary>
           <p>Pelo WhatsApp (11) 98402-5492 ou pelo telefone (11) 3794-3293. Informe o modelo, o ano do carro e o sintoma: barulho, marcha dura, arranhando ou escapando.</p>
         </details>
         <details>
-          <summary>A Câmbio Service é bem avaliada?</summary>
+          <summary><span>A Câmbio Service é bem avaliada?</span></summary>
           <p>Sim. A Câmbio Service tem nota 4,8 de 5 no Google, com 222 avaliações. Os clientes destacam o atendimento do Sr. Furica e da Bruna, o prazo cumprido e a explicação detalhada do problema e das opções de manutenção.</p>
         </details>
         <details>
-          <summary>Onde fica a Câmbio Service?</summary>
+          <summary><span>Onde fica a Câmbio Service?</span></summary>
           <p>Na Av. Henrique Morize, 74 — Vila Formosa, Zona Leste de São Paulo (SP), CEP 03367-000.</p>
         </details>
         <details>
-          <summary>Qual o horário de atendimento?</summary>
+          <summary><span>Qual o horário de atendimento?</span></summary>
           <p>De segunda a sexta, das 8h30 às 18h, e aos sábados, das 8h30 às 12h.</p>
         </details>
         <details>
-          <summary>Vocês atendem Tatuapé, Carrão e Aricanduva?</summary>
+          <summary><span>Vocês atendem Tatuapé, Carrão e Aricanduva?</span></summary>
           <p>Sim. A Câmbio Service, na Vila Formosa, atende motoristas do Tatuapé, Carrão, Aricanduva, Anália Franco, Água Rasa, Mooca, Penha, Vila Prudente, Sapopemba e de toda a cidade de São Paulo.</p>
         </details>
       </div>
