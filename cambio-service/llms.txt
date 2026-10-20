@@ -14,7 +14,7 @@
 - Nota no Google: 4,8 de 5 (222 avaliações)
 - Atendimento: Sr. Furica e Bruna
 - Instagram: https://www.instagram.com/cambio_service/
-- Google Maps: https://www.google.com/maps/place/?q=place_id:ChIJS2iQn-pdzpQRc_8jToJGGNY
+- Google Maps: https://www.google.com/maps/search/?api=1&query=C%C3%A2mbio+Service+Av.+Henrique+Morize+74+Vila+Formosa+S%C3%A3o+Paulo+SP&query_place_id=ChIJS2iQn-pdzpQRc_8jToJGGNY
 
 ## Serviços
 - Diagnóstico de câmbio manual
