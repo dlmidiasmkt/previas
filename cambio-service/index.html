@@ -257,22 +257,25 @@
   .hero__meta span { color: var(--muted); }
   .hero__note { margin-top: 14px; font-size: 12px; color: var(--muted); }
 
-  /* engrenagens 3D */
-  .gears { position: relative; width: 100%; max-width: 560px; aspect-ratio: 1; justify-self: end; touch-action: pan-y; cursor: grab; }
-  .gears:active { cursor: grabbing; }
-  .gears canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
-  .gears::before {
-    content: ""; position: absolute; inset: 14%; border-radius: 50%; pointer-events: none;
-    background: radial-gradient(circle, rgba(255,138,31,.24), rgba(154,163,173,.06) 45%, transparent 70%);
-    filter: blur(22px);
+  /* manopla de câmbio (arte estática) */
+  .knob-art { position: relative; width: 100%; max-width: 500px; justify-self: end; }
+  .knob-art::before {
+    content: ""; position: absolute; inset: 8%; border-radius: 50%; pointer-events: none;
+    background: radial-gradient(circle, rgba(255,138,31,.28), rgba(154,163,173,.05) 50%, transparent 70%);
+    filter: blur(26px);
   }
-  .gears__hint { position: absolute; left: 0; right: 0; bottom: 4px; text-align: center; color: var(--muted); pointer-events: none; transition: opacity .6s; }
-  .gears.touched .gears__hint { opacity: 0; }
-  .gear-fallback { position: absolute; inset: 12%; width: 76%; height: 76%; }
-  .gear-fallback .g1 { animation: spin 14s linear infinite; transform-origin: 90px 100px; }
-  .gear-fallback .g2 { animation: spin 9.3s linear infinite reverse; transform-origin: 158px 64px; }
-  @keyframes spin { to { transform: rotate(360deg); } }
-  .gears.is-3d .gear-fallback { display: none; }
+  .knob-art svg { position: relative; width: 100%; height: auto; display: block; }
+  .knob-art svg text { font-family: var(--sans); font-weight: 900; text-anchor: middle; }
+  .knob-chip {
+    position: absolute; display: flex; flex-direction: column; gap: 2px; padding: 12px 16px; border-radius: 12px;
+    background: rgba(19,20,23,.86); border: 1px solid var(--line); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 18px 40px -18px rgba(0,0,0,.8);
+  }
+  .knob-chip strong { font-size: 22px; font-weight: 900; font-stretch: 115%; line-height: 1; }
+  .knob-chip strong b { color: var(--amber); }
+  .knob-chip span { color: var(--muted); font-size: 11px; }
+  .knob-chip--a { left: -2%; top: 14%; }
+  .knob-chip--b { right: -2%; bottom: 12%; }
 
   .tilt { transform-style: preserve-3d; will-change: transform; }
 
@@ -493,7 +496,9 @@
     .topbar .wrap { height: 60px; }
     [id] { scroll-margin-top: 116px; }
     .hero .wrap { grid-template-columns: minmax(0, 1fr); }
-    .gears { max-width: 380px; justify-self: center; margin-top: -8px; }
+    .knob-art { max-width: 340px; justify-self: center; margin-top: 8px; }
+    .knob-chip--a { left: 0; }
+    .knob-chip--b { right: 0; }
     .resumo, .flow, .areas, .faq, .visit, .reviews { grid-template-columns: minmax(0, 1fr); }
     .resumo, .areas { gap: 32px; }
     .faq { gap: 16px; }
@@ -530,7 +535,6 @@
     .wa-float { width: 58px; padding: 0; justify-content: center; }
   }
   @media (prefers-reduced-motion: reduce) {
-    .gear-fallback .g1, .gear-fallback .g2 { animation: none; }
     .brands__track { animation-duration: 80s; }
     .reveal { transform: none; filter: none; transition: opacity 1s ease; transition-delay: var(--d, 0ms); }
   }
@@ -602,14 +606,42 @@
         <p class="hero__note">*Conforme o veículo e o tipo de reparo. O prazo exato vem junto com o orçamento.</p>
       </div>
 
-      <div class="gears" id="gears" aria-hidden="true">
-        <canvas id="gears3d"></canvas>
-        <!-- fallback sem WebGL -->
-        <svg class="gear-fallback" viewBox="0 0 220 200">
-          <g class="g1"><circle cx="90" cy="100" r="62" fill="none" stroke="#9aa3ad" stroke-width="14" stroke-dasharray="11 8"/><circle cx="90" cy="100" r="50" fill="#1a1b1f" stroke="#2b2c31" stroke-width="3"/><circle cx="90" cy="100" r="12" fill="#0b0c0e" stroke="#ff8a1f" stroke-width="3"/></g>
-          <g class="g2"><circle cx="158" cy="64" r="38" fill="none" stroke="#ff8a1f" stroke-width="12" stroke-dasharray="9 7"/><circle cx="158" cy="64" r="29" fill="#1a1b1f"/><circle cx="158" cy="64" r="8" fill="#0b0c0e"/></g>
+      <!-- manopla de câmbio manual vista de cima, com a grade em H gravada -->
+      <div class="knob-art" aria-hidden="true">
+        <svg viewBox="0 0 400 400">
+          <defs>
+            <radialGradient id="kBoot" cx="50%" cy="45%" r="55%"><stop offset="0" stop-color="#26272c"/><stop offset=".75" stop-color="#141518"/><stop offset="1" stop-color="#0b0c0e"/></radialGradient>
+            <radialGradient id="kTop" cx="38%" cy="30%" r="80%"><stop offset="0" stop-color="#ffffff"/><stop offset=".35" stop-color="#d9dde2"/><stop offset=".75" stop-color="#8e969f"/><stop offset="1" stop-color="#5d646c"/></radialGradient>
+            <linearGradient id="kRim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f6f8"/><stop offset=".5" stop-color="#7d858e"/><stop offset="1" stop-color="#2a2d32"/></linearGradient>
+            <filter id="kShadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000" flood-opacity=".7"/></filter>
+          </defs>
+          <!-- coifa de couro com costura -->
+          <circle cx="200" cy="200" r="186" fill="url(#kBoot)"/>
+          <circle cx="200" cy="200" r="170" fill="none" stroke="#ff8a1f" stroke-opacity=".75" stroke-width="2.5" stroke-dasharray="7 7"/>
+          <g stroke="#000" stroke-opacity=".35" stroke-width="2" fill="none">
+            <path d="M200 30 Q214 115 200 200 Q186 115 200 30"/><path d="M370 200 Q285 214 200 200 Q285 186 370 200"/>
+            <path d="M200 370 Q186 285 200 200 Q214 285 200 370"/><path d="M30 200 Q115 186 200 200 Q115 214 30 200"/>
+          </g>
+          <!-- manopla -->
+          <g filter="url(#kShadow)">
+            <circle cx="200" cy="200" r="122" fill="url(#kRim)"/>
+            <circle cx="200" cy="200" r="112" fill="url(#kTop)"/>
+          </g>
+          <circle cx="200" cy="200" r="112" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="1.5"/>
+          <!-- grade em H gravada -->
+          <g fill="none" stroke="#1a1b1f" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M150 158v84M200 158v84M250 158v84M150 200h100"/>
+          </g>
+          <circle cx="250" cy="158" r="11" fill="#ff8a1f" stroke="#1a1b1f" stroke-width="3"/>
+          <g fill="#1a1b1f" font-size="22">
+            <text x="150" y="146">1</text><text x="200" y="146">3</text><text x="250" y="140" fill="#e06a00">5</text>
+            <text x="150" y="270">2</text><text x="200" y="270">4</text><text x="250" y="270">R</text>
+          </g>
+          <!-- reflexo -->
+          <ellipse cx="160" cy="130" rx="54" ry="22" transform="rotate(-28 160 130)" fill="#fff" opacity=".35"/>
         </svg>
-        <span class="gears__hint label">Arraste para girar</span>
+        <div class="knob-chip knob-chip--a"><strong><b>100%</b> manual</strong><span class="label">especialista</span></div>
+        <div class="knob-chip knob-chip--b"><strong>Vila Formosa</strong><span class="label">Zona Leste · SP</span></div>
       </div>
     </div>
   </section>
@@ -1147,183 +1179,5 @@
   document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 
-<!-- Engrenagens 3D (Three.js). Sem WebGL, fica a versão em SVG. -->
-<script type="importmap">
-{ "imports": {
-  "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
-  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
-} }
-</script>
-<script type="module">
-  import * as THREE from 'three';
-  import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
-
-  const box = document.getElementById('gears');
-  const canvas = document.getElementById('gears3d');
-  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const small = innerWidth < 900;
-
-  let renderer = null;
-  try {
-    renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, powerPreference: 'high-performance' });
-  } catch (e) { /* sem WebGL: mantém o fallback */ }
-  if (renderer) init();
-
-  // perfil de engrenagem de dentes retos (módulo m, z dentes), com furo central e janelas de alívio
-  function gearGeometry(z, m, depth, { hole = 0.3, windows = 0 } = {}) {
-    const rp = m * z / 2, ra = rp + m, rf = rp - 1.25 * m;
-    const shape = new THREE.Shape();
-    const step = (Math.PI * 2) / z;
-    for (let i = 0; i < z; i++) {
-      const a = i * step;
-      const pts = [
-        [rf, a - step * 0.5], [rf, a - step * 0.27], [ra, a - step * 0.14],
-        [ra, a + step * 0.14], [rf, a + step * 0.27]
-      ];
-      pts.forEach(([r, t], j) => {
-        const x = Math.cos(t) * r, y = Math.sin(t) * r;
-        i === 0 && j === 0 ? shape.moveTo(x, y) : shape.lineTo(x, y);
-      });
-    }
-    shape.closePath();
-    const h = new THREE.Path(); h.absarc(0, 0, rp * hole, 0, Math.PI * 2, true); shape.holes.push(h);
-    for (let i = 0; i < windows; i++) {
-      const a = (i / windows) * Math.PI * 2, r = rp * 0.6, w = new THREE.Path();
-      w.absarc(Math.cos(a) * r, Math.sin(a) * r, rp * 0.17, 0, Math.PI * 2, true);
-      shape.holes.push(w);
-    }
-    const g = new THREE.ExtrudeGeometry(shape, { depth, bevelEnabled: true, bevelThickness: 0.04, bevelSize: 0.03, bevelSegments: 2, curveSegments: small ? 16 : 32 });
-    g.translate(0, 0, -depth / 2);
-    return g;
-  }
-
-  function init() {
-    box.classList.add('is-3d');
-    renderer.setPixelRatio(Math.min(devicePixelRatio, small ? 1.5 : 2));
-    renderer.outputColorSpace = THREE.SRGBColorSpace;
-    renderer.toneMapping = THREE.ACESFilmicToneMapping;
-    renderer.toneMappingExposure = 1.05;
-
-    const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(30, 1, 0.1, 100);
-    camera.position.set(0, 0, 14.5);
-
-    const pmrem = new THREE.PMREMGenerator(renderer);
-    scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
-
-    scene.add(new THREE.AmbientLight(0xffffff, 0.15));
-    const key = new THREE.DirectionalLight(0xffffff, 1.4); key.position.set(3, 5, 6); scene.add(key);
-    const amberLight = new THREE.PointLight(0xff8a1f, 55, 22, 2); amberLight.position.set(-4, -3, 4); scene.add(amberLight);
-    const coolLight = new THREE.PointLight(0x9fc4ff, 26, 20, 2); coolLight.position.set(5, 4, 3); scene.add(coolLight);
-
-    const steel = new THREE.MeshStandardMaterial({ color: 0xb8bec6, metalness: 1, roughness: 0.28 });
-    const dark = new THREE.MeshStandardMaterial({ color: 0x2a2c31, metalness: 0.9, roughness: 0.35 });
-    const amber = new THREE.MeshPhysicalMaterial({ color: 0xff8a1f, metalness: 0.6, roughness: 0.25, clearcoat: 1, clearcoatRoughness: 0.08 });
-    const chrome = new THREE.MeshStandardMaterial({ color: 0xffffff, metalness: 1, roughness: 0.1 });
-
-    const rig = new THREE.Group();
-    scene.add(rig);
-
-    // trem de engrenagens: A (grande) engrena com B (laranja), que engrena com C (pequena)
-    const m = 0.2, depth = 0.55;
-    const zA = 22, zB = 13, zC = 10;
-    const rA = m * zA / 2, rB = m * zB / 2, rC = m * zC / 2;
-    const A = new THREE.Mesh(gearGeometry(zA, m, depth, { hole: 0.22, windows: 5 }), steel);
-    const B = new THREE.Mesh(gearGeometry(zB, m, depth, { hole: 0.28, windows: 0 }), amber);
-    const C = new THREE.Mesh(gearGeometry(zC, m, depth * 1.2, { hole: 0.3 }), dark);
-    const angB = -0.55, angC = 0.75; // direção dos centros
-    A.position.set(-0.9, -0.35, 0);
-    B.position.set(A.position.x + Math.cos(angB) * (rA + rB), A.position.y + Math.sin(angB) * (rA + rB), 0);
-    C.position.set(B.position.x + Math.cos(angC) * (rB + rC), B.position.y + Math.sin(angC) * (rB + rC), 0);
-    rig.add(A, B, C);
-    // centraliza o conjunto no quadro
-    const center = new THREE.Box3().setFromObject(rig).getCenter(new THREE.Vector3());
-    [A, B, C].forEach(g => g.position.sub(center));
-
-    // eixos cromados
-    const shaftGeo = new THREE.CylinderGeometry(1, 1, 1.6, 32); shaftGeo.rotateX(Math.PI / 2);
-    [[A, rA * 0.22], [B, rB * 0.28], [C, rC * 0.3]].forEach(([g, r]) => {
-      const s = new THREE.Mesh(shaftGeo, chrome);
-      s.scale.set(r * 0.92, r * 0.92, 1);
-      s.position.copy(g.position);
-      rig.add(s);
-    });
-
-    // fase: quando um dente de A aponta para B, B tem um vão virado para A (e o mesmo entre B e C)
-    const ratioAB = zA / zB, ratioBC = zB / zC;
-    const thetaB = a => -(a - angB) * ratioAB + angB + Math.PI + Math.PI / zB;
-    const thetaC = b => -(b - angC) * ratioBC + angC + Math.PI + Math.PI / zC;
-
-    // partículas de "limalha" no ar
-    const N = small ? 90 : 200;
-    const pos = new Float32Array(N * 3);
-    for (let i = 0; i < N; i++) {
-      const r = 3.6 + Math.random() * 2.2, a = Math.random() * Math.PI * 2;
-      pos[i * 3] = Math.cos(a) * r; pos[i * 3 + 1] = Math.sin(a) * r; pos[i * 3 + 2] = (Math.random() - 0.5) * 4;
-    }
-    const pGeo = new THREE.BufferGeometry();
-    pGeo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
-    const particles = new THREE.Points(pGeo, new THREE.PointsMaterial({ color: 0xffb066, size: 0.045, transparent: true, opacity: 0.55, blending: THREE.AdditiveBlending, depthWrite: false }));
-    scene.add(particles);
-
-    // interação: mouse inclina, arrastar gira, rolar a página acelera
-    let mx = 0, my = 0, dragX = 0, dragY = 0, dragging = false, px = 0, py = 0, boost = 0, lastScroll = scrollY;
-    addEventListener('pointermove', e => { mx = e.clientX / innerWidth - 0.5; my = e.clientY / innerHeight - 0.5; }, { passive: true });
-    addEventListener('scroll', () => { boost = Math.min(6, boost + Math.abs(scrollY - lastScroll) * 0.02); lastScroll = scrollY; }, { passive: true });
-    box.addEventListener('pointerdown', e => {
-      dragging = true; px = e.clientX; py = e.clientY;
-      box.setPointerCapture(e.pointerId);
-      box.classList.add('touched');
-    });
-    box.addEventListener('pointermove', e => {
-      if (!dragging) return;
-      dragY += (e.clientX - px) * 0.012; dragX += (e.clientY - py) * 0.012;
-      boost = Math.min(6, boost + 0.15);
-      px = e.clientX; py = e.clientY;
-    });
-    ['pointerup', 'pointercancel'].forEach(ev => box.addEventListener(ev, () => { dragging = false; }));
-
-    const resize = () => {
-      const w = box.clientWidth, h = box.clientHeight;
-      renderer.setSize(w, h, false);
-      camera.aspect = w / h;
-      camera.updateProjectionMatrix();
-    };
-    new ResizeObserver(resize).observe(box);
-    resize();
-
-    let visible = true;
-    new IntersectionObserver(([e]) => { visible = e.isIntersecting; }).observe(box);
-
-    const clock = new THREE.Clock();
-    let angle = 0;
-    rig.rotation.set(-0.35, 0.45, 0);
-    const frame = () => {
-      requestAnimationFrame(frame);
-      const dt = Math.min(clock.getDelta(), 0.05);
-      if (!visible) return;
-      const t = clock.elapsedTime;
-
-      boost *= 0.95;
-      angle += dt * (reduced ? 0.08 : 0.35 + boost * 0.6);
-      A.rotation.z = angle;
-      B.rotation.z = thetaB(angle);
-      C.rotation.z = thetaC(B.rotation.z);
-
-      if (!dragging) { dragX *= 0.985; dragY *= 0.985; }
-      const s = Math.min(1, scrollY / (innerHeight * 0.9));
-      const tx = -0.35 + my * 0.35 + dragX + Math.sin(t * 0.6) * 0.03;
-      const ty = 0.45 + mx * 0.6 + dragY + s * 0.9 + Math.sin(t * 0.45) * 0.05;
-      rig.rotation.x += (tx - rig.rotation.x) * 0.08;
-      rig.rotation.y += (ty - rig.rotation.y) * 0.08;
-      rig.position.y = Math.sin(t * 1.1) * 0.08;
-
-      amberLight.intensity = 55 + boost * 8;
-      particles.rotation.z = t * 0.03;
-      renderer.render(scene, camera);
-    };
-    frame();
-  }
-</script>
 </body>
 </html>
