@@ -395,7 +395,7 @@
 
   /* avaliações */
   .reviews { display: grid; grid-template-columns: 340px minmax(0, 1fr); gap: 48px; align-items: stretch; }
-  .score { padding: 32px; border: 1px solid var(--line-dark); border-radius: 6px; background: #fff; display: flex; flex-direction: column; }
+  .score { position: sticky; top: 100px; align-self: start; padding: 32px; border: 1px solid var(--line-dark); border-radius: 6px; background: #fff; display: flex; flex-direction: column; }
   .g-badge { display: flex; align-items: center; gap: 8px; margin-bottom: 20px; font-weight: 700; font-size: 14px; }
   .score h3 { font-size: 28px; font-weight: 900; font-stretch: 115%; line-height: 1.05; text-transform: uppercase; letter-spacing: -.02em; }
   .score .stars { color: #fbbc04; font-size: 22px; letter-spacing: 2px; margin: 14px 0 8px; display: block; }
@@ -413,6 +413,9 @@
   .quote--wide blockquote { font-size: clamp(22px, 2.4vw, 30px); font-weight: 700; font-stretch: 105%; line-height: 1.2; }
   .quote--wide blockquote em { font-style: normal; color: var(--amber); }
   .quote--wide footer span { color: var(--muted); }
+  .quote--span { grid-column: span 2; }
+  .quote blockquote { font-size: 16px; }
+  .quote--wide blockquote { font-size: clamp(19px, 1.8vw, 23px); font-weight: 600; line-height: 1.35; }
   .avatar { width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; background: var(--amber); color: var(--ink-dark); font-weight: 900; font-size: 15px; flex: none; }
 
   /* bairros */
@@ -500,6 +503,7 @@
     .knob-chip--a { left: 0; }
     .knob-chip--b { right: 0; }
     .resumo, .flow, .areas, .faq, .visit, .reviews { grid-template-columns: minmax(0, 1fr); }
+    .score { position: static; }
     .resumo, .areas { gap: 32px; }
     .faq { gap: 16px; }
     .services, .symptoms { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -517,7 +521,7 @@
     .logo svg { height: 34px; }
     .topbar .btn span { display: none; }
     .services, .symptoms, .quotes { grid-template-columns: minmax(0, 1fr); }
-    .quote--wide { grid-column: auto; }
+    .quote--wide, .quote--span { grid-column: auto; }
     .facts { grid-template-columns: minmax(0, 1fr); }
     .facts > div:nth-child(odd) { border-right: 0; padding-right: 0; }
     .facts > div:nth-child(even) { padding-left: 0; }
@@ -871,7 +875,7 @@
       <div class="sec__head reveal">
         <div>
           <span class="label">Avaliações no Google</span>
-          <h2>A confiança de quem <em>já trocou de marcha</em> com a gente.</h2>
+          <h2>Quem leva o carro, <em>volta recomendando.</em></h2>
         </div>
       </div>
       <div class="reviews">
@@ -879,24 +883,28 @@
           <div class="g-badge"><svg width="20" height="20" aria-hidden="true"><use href="#g-logo"/></svg>Google</div>
           <h3>Câmbio Service no Google</h3>
           <span class="stars" aria-hidden="true">★★★★★</span>
-          <p>Veja a nota e as avaliações de clientes no perfil da oficina no Google Maps, ou deixe a sua depois do serviço.</p>
+          <p>Atendimento do Sr. Furica e da Bruna, prazo cumprido e explicação de cada detalhe: é o que os clientes mais destacam no Google. Veja todas as avaliações no perfil da oficina.</p>
           <!-- abre o perfil da oficina no Google Maps -->
           <a class="btn btn--line" href="https://www.google.com/maps/place/?q=place_id:ChIJS2iQn-pdzpQRc_8jToJGGNY" target="_blank" rel="noopener">Ver avaliações no Google</a>
           <a class="btn btn--line" href="https://search.google.com/local/writereview?placeid=ChIJS2iQn-pdzpQRc_8jToJGGNY" target="_blank" rel="noopener">Deixar minha avaliação</a>
         </aside>
         <div class="quotes">
-          <!-- PRÉVIA: trocar pelos depoimentos reais do Google (nome, texto e nota) antes de publicar -->
+          <!-- avaliações reais do Google Maps, transcritas como foram escritas -->
           <figure class="quote quote--wide reveal">
-            <blockquote>“Mais de 30 anos <em>só com câmbio manual.</em> É por isso que o diagnóstico sai certo da primeira vez.”</blockquote>
-            <footer><div class="avatar" aria-hidden="true">CS</div><div>Câmbio Service<span>Vila Formosa · São Paulo</span></div></footer>
+            <blockquote>“Lugar top demais! <em>Especialistas em câmbio manual,</em> preço muito bom e serviço entregue antes do combinado. O Sr. Furika e a Bruna são super atenciosos, mostram tudo, explicam direitinho e ainda dão várias dicas pra conservar o câmbio. O atendimento é diferenciado mesmo, até perguntaram se eu queria Uber quando deixei o carro. Pode ir sem medo, recomendo a todos!”</blockquote>
+            <footer><div class="avatar" aria-hidden="true">LB</div><div>Lucas Bio<span>Local Guide · 5★ no Google</span></div></footer>
           </figure>
           <figure class="quote reveal">
-            <blockquote>“Você sabe o que vai ser feito e quanto vai custar antes de qualquer serviço. Sem surpresa na hora de buscar o carro.”</blockquote>
-            <footer><div class="avatar" aria-hidden="true">1</div><div>Orçamento antes do serviço<span>Compromisso da oficina</span></div></footer>
+            <blockquote>“Hoje estive na Câmbio Service pq meu carro não passava marcha, estava travado, cheguei de guincho. Fui recepcionada pela Bruna e o sr Furica que fizeram testes no meu carro e viram que era a embreagem. Super honestos, virei fã dos dois. Parabéns ao casal por serem tão gentis e humanos.”</blockquote>
+            <footer><div class="avatar" aria-hidden="true">JD</div><div>Ju Duarte Gonçalves<span>5★ no Google · “Ótimo preço”</span></div></footer>
           </figure>
           <figure class="quote reveal">
-            <blockquote>“Peça em estoque é carro pronto mais rápido. Muitos serviços saem em até 24 horas.”</blockquote>
-            <footer><div class="avatar" aria-hidden="true">2</div><div>Prazo curto<span>Compromisso da oficina</span></div></footer>
+            <blockquote>“Olha eu sou de Diadema uns 28 km de distância, fui até pelas indicações e por ser um dos caras mais especialistas em cambio, e levei meu uninho e ele me deu total atenção desde o waths até o atendimento. Sem contar o tempo que ele diz que o carro fica pronto é exato! Muito satisfeito eu recomendo.”</blockquote>
+            <footer><div class="avatar" aria-hidden="true">RP</div><div>Ronaldo Panela<span>Local Guide · 5★ no Google</span></div></footer>
+          </figure>
+          <figure class="quote quote--span reveal">
+            <blockquote>“Excelente, podem ir sem medo quando tiverem problema no câmbio. Sr. FURICA e a Bruna super educados e atenciosos, Furica me recebeu no sábado final do expediente e foi atencioso ao ver meu problema de câmbio e além disso ainda me alertou sobre a minha embreagem. Durante a negociação ele me explicou em detalhes sobre o funcionamento do Câmbio Sandero além de me dar opções de proceder com manutenção. Outro ponto fantástico é a PONTUALIDADE, maiorias dos mecânico que eu conheço atrasam as entregas, eles resolveram de um dia para o outro.”</blockquote>
+            <footer><div class="avatar" aria-hidden="true">GC</div><div>Glauco Corrêa<span>Local Guide · 5★ no Google</span></div></footer>
           </figure>
         </div>
       </div>
