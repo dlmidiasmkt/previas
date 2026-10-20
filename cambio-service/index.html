@@ -162,7 +162,7 @@
     --max: 1240px;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  html { background: var(--black); overflow-x: clip; }
+  html { background: var(--black); overflow-x: clip; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
   body { background: var(--black); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.5; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
   img { display: block; max-width: 100%; }
   a { color: inherit; text-decoration: none; }
@@ -195,8 +195,13 @@
     border-bottom: 1px solid var(--line);
   }
   .topbar .wrap { display: flex; align-items: center; justify-content: space-between; height: 68px; gap: 20px; }
-  .logo { display: flex; align-items: center; gap: 12px; }
-  .logo svg { height: 40px; width: auto; aspect-ratio: 214 / 64; overflow: visible; }
+  .logo { display: flex; align-items: center; gap: 12px; min-width: 0; flex: none; }
+  /* logo em HTML + ícone em arquivo: renderiza igual em todos os navegadores (Safari/iOS incluso) */
+  .brandmark { display: inline-flex; align-items: center; gap: 10px; flex: none; line-height: 1; }
+  .brandmark img { width: 40px; height: 40px; flex: none; border-radius: 9px; }
+  .brandmark__name { display: flex; flex-direction: column; gap: 4px; white-space: nowrap; }
+  .brandmark__name b { font-family: var(--sans); font-weight: 900; font-size: 21px; letter-spacing: -.01em; text-transform: uppercase; color: var(--ink); }
+  .brandmark__name i { font-family: var(--mono); font-style: normal; font-weight: 500; font-size: 10.5px; letter-spacing: .42em; text-transform: uppercase; color: var(--amber); }
   .logo small { font-family: var(--mono); font-weight: 400; font-size: 11px; letter-spacing: .1em; color: var(--muted); padding-left: 12px; border-left: 1px solid var(--line); }
   .menu { display: flex; gap: 28px; font-size: 14px; color: var(--muted); }
   .menu a { position: relative; padding: 6px 0; transition: color .3s; }
@@ -439,11 +444,11 @@
   .faq h2 { font-size: clamp(30px, 3.4vw, 46px); overflow-wrap: anywhere; }
   .faq__intro { margin-top: 18px; color: var(--muted); max-width: 360px; }
   .faq details { border-bottom: 1px solid var(--line); }
-  .faq summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; gap: 20px; padding: 24px 0; font-size: 19px; font-weight: 700; }
+  .faq summary { list-style: none; cursor: pointer; display: block; position: relative; padding: 24px 40px 24px 0; font-size: 19px; font-weight: 700; }
+  .faq summary::marker { content: ""; }
   .faq summary::-webkit-details-marker { display: none; }
-  .faq summary span { flex: 1; min-width: 0; }
-  .faq summary::after { content: "+"; flex: none; width: 22px; text-align: center; font-weight: 400; font-size: 26px; line-height: 1; color: var(--amber); transition: transform .2s; }
-  .faq details[open] summary::after { transform: rotate(45deg); }
+  .faq summary::after { content: "+"; position: absolute; right: 0; top: 22px; width: 22px; text-align: center; font-weight: 400; font-size: 26px; line-height: 1; color: var(--amber); }
+  .faq details[open] summary::after { content: "−"; }
   .faq details p { padding: 0 0 24px; color: var(--muted); max-width: 640px; }
 
   /* local */
@@ -468,7 +473,8 @@
   footer.site { padding: 40px 0 110px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
   footer.site .wrap { display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
   footer.site a:hover { color: var(--ink); }
-  .footer-logo { height: 34px; width: auto; aspect-ratio: 214 / 64; overflow: visible; }
+  .footer-logo .brandmark img { width: 34px; height: 34px; }
+  .footer-logo .brandmark__name b { font-size: 18px; }
 
   /* botão flutuante */
   .wa-float {
@@ -530,7 +536,9 @@
     .sec h2 { font-size: min(32px, 8.4vw); }
     .hero h1 { font-size: min(34px, 9.6vw); }
     .logo small { display: none; }
-    .logo svg { height: 34px; }
+    .brandmark img { width: 36px; height: 36px; }
+    .brandmark__name b { font-size: 19px; }
+    .brandmark__name i { font-size: 10px; letter-spacing: .38em; }
     .topbar .btn span { display: none; }
     .services, .symptoms, .quotes { grid-template-columns: minmax(0, 1fr); }
     .quote--wide, .quote--span { grid-column: auto; }
@@ -562,26 +570,13 @@
 <a class="sr" href="#servicos">Pular para o conteúdo</a>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <defs>
-    <linearGradient id="lgSteel" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff"/><stop offset=".48" stop-color="#d6dbe0"/><stop offset=".52" stop-color="#9aa3ad"/><stop offset="1" stop-color="#e9ecef"/>
-    </linearGradient>
-  </defs>
-  <!-- Logo: grade de câmbio em H + nome -->
-  <symbol id="logo" viewBox="0 0 214 64">
-    <rect x="0" y="4" width="56" height="56" rx="12" fill="#ff8a1f"/>
-    <path d="M14 16v32M28 16v32M42 16v32M14 32h28" fill="none" stroke="#0b0c0e" stroke-width="5" stroke-linecap="round"/>
-    <circle cx="42" cy="16" r="6.5" fill="#0b0c0e"/><circle cx="42" cy="16" r="2.4" fill="#ff8a1f"/>
-    <text x="70" y="36" font-family="Archivo, sans-serif" font-weight="900" font-size="30" textLength="140" lengthAdjust="spacingAndGlyphs" fill="url(#lgSteel)">CÂMBIO</text>
-    <text x="71" y="57" font-family="IBM Plex Mono, monospace" font-weight="500" font-size="14" textLength="138" lengthAdjust="spacing" fill="#ff8a1f">SERVICE</text>
-  </symbol>
   <symbol id="wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35M12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.31l-.34-.2-3.57.93.95-3.48-.22-.36a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.23-9.43 9.44-9.43 2.52 0 4.89.98 6.67 2.77a9.37 9.37 0 0 1 2.76 6.67c0 5.2-4.23 9.43-9.44 9.43m8.02-17.45A11.27 11.27 0 0 0 12.05.72C5.8.72.71 5.8.7 12.06c0 2 .52 3.95 1.52 5.67L.6 23.6l6-1.58a11.3 11.3 0 0 0 5.43 1.38h.01c6.25 0 11.34-5.09 11.35-11.34 0-3.03-1.18-5.88-3.32-8.02"/></symbol>
   <symbol id="g-logo" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></symbol>
 </svg>
 
 <header class="topbar">
   <div class="wrap">
-    <a href="#topo" class="logo" aria-label="Câmbio Service — início"><svg role="img" aria-label="Câmbio Service"><use href="#logo"/></svg><small>Vila Formosa · SP</small></a>
+    <a href="#topo" class="logo" aria-label="Câmbio Service — início"><span class="brandmark" aria-hidden="true"><img src="img/icone.svg" alt="" width="40" height="40"><span class="brandmark__name"><b>Câmbio</b><i>Service</i></span></span><small>Vila Formosa · SP</small></a>
     <nav class="menu" aria-label="Principal">
       <a href="#servicos">Serviços</a>
       <a href="#sintomas">Sintomas</a>
@@ -1043,7 +1038,7 @@
 
 <footer class="site">
   <div class="wrap">
-    <svg class="footer-logo" role="img" aria-label="Câmbio Service"><use href="#logo"/></svg>
+    <span class="footer-logo" role="img" aria-label="Câmbio Service"><span class="brandmark"><img src="img/icone.svg" alt="" width="40" height="40"><span class="brandmark__name"><b>Câmbio</b><i>Service</i></span></span></span>
     <span>© <span id="year">2026</span> Câmbio Service · Especialista em câmbio manual · Av. Henrique Morize, 74 · Vila Formosa · São Paulo, SP</span>
     <a href="https://www.instagram.com/cambio_service/" target="_blank" rel="noopener">Instagram @cambio_service</a>
   </div>
