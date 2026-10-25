@@ -1,0 +1,26 @@
+{
+ "versao": "notebook-celular-sem-voz",
+ "duracao": 31.2,
+ "cenas": {
+  "pc1": 0.35,
+  "pc2": 3.4,
+  "pc3": 6.3,
+  "pc4": 10.2,
+  "pc5": 13.6,
+  "tr": 16.6,
+  "cel2": 20.4,
+  "wa": 23.4,
+  "fim": 28.2
+ },
+ "legendas": {
+  "pc1": "O seu site novo já está pronto",
+  "pc2": "Nota máxima no Google, logo na primeira tela",
+  "pc3": "Áreas de atuação claras, cada uma com botão pro WhatsApp",
+  "pc4": "Avaliações reais de quem já é cliente",
+  "pc5": "Endereço, horário e mapa pra chegar fácil",
+  "tr": "E no celular? Perfeito também 📱",
+  "cel2": "Rápido, leve e fácil de navegar",
+  "wa": "Um toque e o cliente já chama no WhatsApp",
+  "fim": "Sem compromisso · Abra o link 👇"
+ }
+}
